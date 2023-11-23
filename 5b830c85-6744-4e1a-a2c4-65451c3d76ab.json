@@ -853,6 +853,12 @@
       "name": "PostponeStickerBool",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "ConveyorSpeed",
+      "type": "number",
+      "value": 50
     }
   ],
   "layouts": [
@@ -876,7 +882,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.405751890594384,
+        "zoomFactor": 0.3437520241612329,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3749,7 +3755,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4952,7 +4957,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Conveyor Belt",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4980,7 +4984,7 @@
                   },
                   "parameters": [
                     "Box",
-                    "50",
+                    "ConveyorSpeed",
                     "0",
                     "0"
                   ]
@@ -5133,6 +5137,16 @@
                         },
                         {
                           "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "MONEY",
+                            "+",
+                            "10"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "EffectCapability::EffectBehavior::EnableEffect"
                           },
                           "parameters": [
@@ -5210,6 +5224,16 @@
                             "",
                             "70",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "MONEY",
+                            "-",
+                            "20"
                           ]
                         },
                         {
@@ -5304,6 +5328,16 @@
                         },
                         {
                           "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "MONEY",
+                            "+",
+                            "10"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "EffectCapability::EffectBehavior::EnableEffect"
                           },
                           "parameters": [
@@ -5381,6 +5415,16 @@
                             "",
                             "70",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "MONEY",
+                            "-",
+                            "20"
                           ]
                         },
                         {
@@ -5475,6 +5519,16 @@
                         },
                         {
                           "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "MONEY",
+                            "+",
+                            "10"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "EffectCapability::EffectBehavior::EnableEffect"
                           },
                           "parameters": [
@@ -5552,6 +5606,16 @@
                             "",
                             "70",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "MONEY",
+                            "-",
+                            "20"
                           ]
                         },
                         {
@@ -5638,7 +5702,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Start",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5674,6 +5737,32 @@
                     "Effect",
                     "\"Incorrect\"",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FasterConveyorBool",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "ConveyorSpeed",
+                    "=",
+                    "100"
                   ]
                 }
               ]
