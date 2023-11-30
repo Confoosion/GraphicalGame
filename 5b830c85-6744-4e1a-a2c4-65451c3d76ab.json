@@ -667,7 +667,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "tiled_Purple_background.png",
+        "file": "assets/tiled_Purple_background.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Purple_background.png",
@@ -714,7 +714,7 @@
         }
       },
       {
-        "file": "Error Sound.mp3",
+        "file": "assets/Error Sound.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "Error Sound.mp3",
@@ -724,7 +724,7 @@
         "userAdded": true
       },
       {
-        "file": "Buying Sound Effect.mp3",
+        "file": "assets/Buying Sound Effect.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "Buying Sound Effect.mp3",
