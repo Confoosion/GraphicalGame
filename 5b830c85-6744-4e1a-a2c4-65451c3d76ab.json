@@ -2630,7 +2630,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2817259932079576,
+        "zoomFactor": 0.36732575450588434,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3193,6 +3193,21 @@
           "x": 828,
           "y": 783,
           "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "CountdownText",
+          "persistentUuid": "49824009-37d2-4c20-83d7-15786bdad497",
+          "width": 0,
+          "x": 900,
+          "y": 201,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4818,6 +4833,12 @@
               "type": "structure",
               "children": [
                 {
+                  "folded": true,
+                  "name": "BoxID",
+                  "type": "number",
+                  "value": 0
+                },
+                {
                   "name": "Color",
                   "type": "string",
                   "value": "Blue"
@@ -4826,6 +4847,17 @@
                   "name": "Shape",
                   "type": "string",
                   "value": "NA"
+                },
+                {
+                  "name": "Tape",
+                  "type": "string",
+                  "value": "NA"
+                },
+                {
+                  "folded": true,
+                  "name": "Weight",
+                  "type": "number",
+                  "value": 0
                 }
               ]
             },
@@ -4833,6 +4865,12 @@
               "name": "Cart_B",
               "type": "structure",
               "children": [
+                {
+                  "folded": true,
+                  "name": "BoxID",
+                  "type": "number",
+                  "value": 0
+                },
                 {
                   "folded": true,
                   "name": "Color",
@@ -4843,6 +4881,16 @@
                   "name": "Shape",
                   "type": "string",
                   "value": "NA"
+                },
+                {
+                  "name": "Tape",
+                  "type": "string",
+                  "value": "NA"
+                },
+                {
+                  "name": "Weight",
+                  "type": "number",
+                  "value": 0
                 }
               ]
             },
@@ -4850,6 +4898,11 @@
               "name": "Cart_C",
               "type": "structure",
               "children": [
+                {
+                  "name": "BoxID",
+                  "type": "number",
+                  "value": 0
+                },
                 {
                   "name": "Color",
                   "type": "string",
@@ -4860,6 +4913,17 @@
                   "name": "Shape",
                   "type": "string",
                   "value": "NA"
+                },
+                {
+                  "name": "Tape",
+                  "type": "string",
+                  "value": "NA"
+                },
+                {
+                  "folded": true,
+                  "name": "Weight",
+                  "type": "number",
+                  "value": 0
                 }
               ]
             }
@@ -8625,6 +8689,34 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "CountdownText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "CountdownTimer",
+              "type": "number",
+              "value": 20
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "20",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -8747,6 +8839,9 @@
           },
           {
             "objectName": "BuyMenuText"
+          },
+          {
+            "objectName": "CountdownText"
           }
         ]
       },
@@ -9787,6 +9882,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Box Rotations",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12541,6 +12637,14 @@
                 },
                 {
                   "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "CountdownText"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ResetTimer"
                   },
                   "parameters": [
@@ -13028,9 +13132,186 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "BoxesSpawned",
+                        "=",
+                        "GlobalVariable(BoxesPerDay)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "CountdownText",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Countdown\""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "BoxesSpawned",
+                    "=",
+                    "GlobalVariable(BoxesPerDay)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Countdown\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "CountdownText",
+                    "CountdownTimer",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "CountdownText",
+                    "CountdownTimer",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "CountdownText",
+                    "Text",
+                    "=",
+                    "ToString(CountdownText.Variable(CountdownTimer))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Countdown\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "mod(CountdownText.Variable(CountdownTimer), 2)",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::ChangeColor"
+                      },
+                      "parameters": [
+                        "CountdownText",
+                        "\"255;0;0\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "mod(CountdownText.Variable(CountdownTimer), 2)",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::ChangeColor"
+                      },
+                      "parameters": [
+                        "CountdownText",
+                        "\"255;255;255\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "End Result Screen",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -13078,6 +13359,15 @@
                   "parameters": [
                     "",
                     "\"BoxSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Countdown\""
                   ]
                 },
                 {
