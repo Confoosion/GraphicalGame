@@ -1146,6 +1146,33 @@
         "name": "NewSprite20",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Focused14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Focused14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pressed13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pressed13",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1160,7 +1187,7 @@
       "folded": true,
       "name": "BoxesRemaining",
       "type": "number",
-      "value": 2
+      "value": 0
     },
     {
       "folded": true,
@@ -1337,7 +1364,7 @@
       "folded": true,
       "name": "BoxesPerDay",
       "type": "number",
-      "value": 0
+      "value": 5
     },
     {
       "folded": true,
@@ -1404,6 +1431,18 @@
       "name": "TotalGainedPerDay",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "BoxesSpawned",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "ShiftDay",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -1427,7 +1466,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3437520241612332,
+        "zoomFactor": 0.34375202416123324,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1821,8 +1860,8 @@
           "name": "DayEarningsText",
           "persistentUuid": "cdf08a8e-6846-41fa-a0fc-d08ce065a35a",
           "width": 0,
-          "x": 595,
-          "y": 223,
+          "x": 568,
+          "y": 222,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1836,8 +1875,8 @@
           "name": "RentAmountText",
           "persistentUuid": "1b3c59b7-fb6e-48e2-93b4-ba9d5fe07064",
           "width": 0,
-          "x": 749,
-          "y": 375,
+          "x": 577,
+          "y": 377,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -1851,9 +1890,145 @@
           "name": "TotalGainedText",
           "persistentUuid": "234fb37d-46a9-478e-83b6-9a592971b972",
           "width": 0,
-          "x": 650,
-          "y": 677,
+          "x": 571,
+          "y": 513,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inspect",
+          "name": "Box_3",
+          "persistentUuid": "88811db2-dfe3-4c01-8060-9df2f7f6c852",
+          "width": 0,
+          "x": 811,
+          "y": 401,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inspect",
+          "name": "Box_4",
+          "persistentUuid": "ae4e30e1-0dbe-4e0b-aa0f-8efa52373d8a",
+          "width": 0,
+          "x": 811,
+          "y": 401,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inspect",
+          "name": "Box_5",
+          "persistentUuid": "50768744-4c23-475c-a84e-722179607590",
+          "width": 0,
+          "x": 811,
+          "y": 401,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inspect",
+          "name": "Box_6",
+          "persistentUuid": "f061ea2c-0475-4e3b-97ff-f902d509b0c2",
+          "width": 0,
+          "x": 811,
+          "y": 401,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inspect",
+          "name": "Box_7",
+          "persistentUuid": "02ca8964-317b-4325-8a3b-1205610443b8",
+          "width": 0,
+          "x": 811,
+          "y": 401,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inspect",
+          "name": "Box_8",
+          "persistentUuid": "c4b021d3-7e05-43ce-967f-908c1628186d",
+          "width": 0,
+          "x": 811,
+          "y": 401,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inspect",
+          "name": "Box_9",
+          "persistentUuid": "e3012200-e375-46eb-a507-75272a4b5473",
+          "width": 0,
+          "x": 811,
+          "y": 401,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 150,
+          "layer": "End Result",
+          "name": "BuyMenuButton",
+          "persistentUuid": "14edd09b-de53-4881-abc9-33dc600e9e62",
+          "width": 300,
+          "x": 821,
+          "y": 733,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "End Result",
+          "name": "BuyMenuText",
+          "persistentUuid": "0537e504-ac60-4fed-9cb4-912a527d2006",
+          "width": 0,
+          "x": 828,
+          "y": 783,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3486,7 +3661,7 @@
                 {
                   "name": "Shape",
                   "type": "string",
-                  "value": "Circle"
+                  "value": "NA"
                 }
               ]
             },
@@ -3503,7 +3678,7 @@
                 {
                   "name": "Shape",
                   "type": "string",
-                  "value": "Triangle"
+                  "value": "NA"
                 }
               ]
             },
@@ -3520,7 +3695,7 @@
                   "folded": true,
                   "name": "Shape",
                   "type": "string",
-                  "value": "Square"
+                  "value": "NA"
                 }
               ]
             }
@@ -3798,19 +3973,19 @@
               "folded": true,
               "name": "Cart_A_Text",
               "type": "string",
-              "value": "Cart A:\n\n- BLUE CIRCLE"
+              "value": "Cart A:\n\n- BLUE"
             },
             {
               "folded": true,
               "name": "Cart_B_Text",
               "type": "string",
-              "value": "Cart B:\n\n- GREEN TRIANGLE"
+              "value": "Cart B:\n\n- GREEN"
             },
             {
               "folded": true,
               "name": "Cart_C_Text",
               "type": "string",
-              "value": "Cart C:\n\nRED SQUARE"
+              "value": "Cart C:\n\n- RED"
             }
           ],
           "effects": [],
@@ -4250,69 +4425,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-          "name": "BuyMenu",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 10,
-            "BottomPadding": 32,
-            "TopPadding": 16,
-            "HoveredFadeOutDuration": 0.25
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Green Button_Hovered.png",
-              "tiled": true,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Idle": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Green Button_Idle.png",
-              "tiled": true,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Buy Menu",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 30,
-              "color": {
-                "b": 29,
-                "g": 99,
-                "r": 62
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 16,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Green Button_Pressed.png",
-              "tiled": true,
-              "topMargin": 32,
-              "width": 256
-            }
-          }
         },
         {
           "assetStoreId": "",
@@ -5755,7 +5867,6 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "folded": true,
               "name": "Specifications",
               "type": "structure",
               "children": [
@@ -6952,6 +7063,404 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NextShiftButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite21",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BuyMenuButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite21",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NextShiftText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Next Shift",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "BuyMenuText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Go Shopping",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 45,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -7046,9 +7555,6 @@
             "objectName": "RightArrow"
           },
           {
-            "objectName": "BuyMenu"
-          },
-          {
             "objectName": "MoneyText"
           },
           {
@@ -7065,6 +7571,18 @@
           },
           {
             "objectName": "TotalGainedText"
+          },
+          {
+            "objectName": "NextShiftButton"
+          },
+          {
+            "objectName": "NextShiftText"
+          },
+          {
+            "objectName": "BuyMenuButton"
+          },
+          {
+            "objectName": "BuyMenuText"
           }
         ]
       },
@@ -7956,16 +8474,10 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 }
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8111,7 +8623,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Box Rotations",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8127,6 +8638,15 @@
                         "ChevronArrowUp",
                         "ButtonFSM",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
                       ]
                     }
                   ],
@@ -8442,6 +8962,15 @@
                         "ButtonFSM",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -8755,6 +9284,15 @@
                         "ChevronArrowLeft",
                         "ButtonFSM",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
                       ]
                     }
                   ],
@@ -9310,6 +9848,15 @@
                         "ChevronArrowRight",
                         "ButtonFSM",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
                       ]
                     }
                   ],
@@ -9866,6 +10413,15 @@
                         "ButtonFSM",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10026,7 +10582,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Conveyor Belt",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10179,17 +10734,6 @@
                             "=",
                             "Box.VariableString(Specifications.Color)"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Cart",
-                            "Cart_A.Shape",
-                            "=",
-                            "Box.VariableString(Specifications.Shape)"
-                          ]
                         }
                       ],
                       "actions": [
@@ -10212,7 +10756,7 @@
                           "parameters": [
                             "EarnedPerDay",
                             "+",
-                            "10"
+                            "20"
                           ]
                         },
                         {
@@ -10222,7 +10766,7 @@
                           "parameters": [
                             "MONEY",
                             "+",
-                            "10"
+                            "20"
                           ]
                         },
                         {
@@ -10262,34 +10806,14 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "inverted": true,
+                            "value": "VarObjetTxt"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Cart",
-                                "Cart_A.Shape",
-                                "=",
-                                "Box.VariableString(Specifications.Shape)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Cart",
-                                "Cart_A.Color",
-                                "=",
-                                "Box.VariableString(Specifications.Color)"
-                              ]
-                            }
+                          "parameters": [
+                            "Cart",
+                            "Cart_A.Color",
+                            "=",
+                            "Box.VariableString(Specifications.Color)"
                           ]
                         }
                       ],
@@ -10304,6 +10828,16 @@
                             "",
                             "70",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "EarnedPerDay",
+                            "-",
+                            "20"
                           ]
                         },
                         {
@@ -10380,17 +10914,6 @@
                             "=",
                             "Box.VariableString(Specifications.Color)"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Cart",
-                            "Cart_B.Shape",
-                            "=",
-                            "Box.VariableString(Specifications.Shape)"
-                          ]
                         }
                       ],
                       "actions": [
@@ -10413,7 +10936,7 @@
                           "parameters": [
                             "EarnedPerDay",
                             "+",
-                            "10"
+                            "20"
                           ]
                         },
                         {
@@ -10423,7 +10946,7 @@
                           "parameters": [
                             "MONEY",
                             "+",
-                            "10"
+                            "20"
                           ]
                         },
                         {
@@ -10463,34 +10986,14 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "inverted": true,
+                            "value": "VarObjetTxt"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Cart",
-                                "Cart_B.Shape",
-                                "=",
-                                "Box.VariableString(Specifications.Shape)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Cart",
-                                "Cart_B.Color",
-                                "=",
-                                "Box.VariableString(Specifications.Color)"
-                              ]
-                            }
+                          "parameters": [
+                            "Cart",
+                            "Cart_B.Color",
+                            "=",
+                            "Box.VariableString(Specifications.Color)"
                           ]
                         }
                       ],
@@ -10505,6 +11008,16 @@
                             "",
                             "70",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "EarnedPerDay",
+                            "-",
+                            "20"
                           ]
                         },
                         {
@@ -10581,17 +11094,6 @@
                             "=",
                             "Box.VariableString(Specifications.Color)"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "Cart",
-                            "Cart_C.Shape",
-                            "=",
-                            "Box.VariableString(Specifications.Shape)"
-                          ]
                         }
                       ],
                       "actions": [
@@ -10614,7 +11116,7 @@
                           "parameters": [
                             "EarnedPerDay",
                             "+",
-                            "10"
+                            "20"
                           ]
                         },
                         {
@@ -10624,7 +11126,7 @@
                           "parameters": [
                             "MONEY",
                             "+",
-                            "10"
+                            "20"
                           ]
                         },
                         {
@@ -10664,34 +11166,14 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "inverted": true,
+                            "value": "VarObjetTxt"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Cart",
-                                "Cart_C.Shape",
-                                "=",
-                                "Box.VariableString(Specifications.Shape)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "VarObjetTxt"
-                              },
-                              "parameters": [
-                                "Cart",
-                                "Cart_C.Color",
-                                "=",
-                                "Box.VariableString(Specifications.Color)"
-                              ]
-                            }
+                          "parameters": [
+                            "Cart",
+                            "Cart_C.Color",
+                            "=",
+                            "Box.VariableString(Specifications.Color)"
                           ]
                         }
                       ],
@@ -10706,6 +11188,16 @@
                             "",
                             "70",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "EarnedPerDay",
+                            "-",
+                            "20"
                           ]
                         },
                         {
@@ -10824,6 +11316,17 @@
                     "=",
                     "\"Total: $\" + ToString(GlobalVariable(TotalGainedPerDay))"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DayText",
+                    "Text",
+                    "=",
+                    "\"Shift \" + ToString(GlobalVariable(ShiftDay))"
+                  ]
                 }
               ]
             }
@@ -10880,6 +11383,16 @@
                     "",
                     "\"BoxSpawn\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BoxesRemaining",
+                    "=",
+                    "GlobalVariable(BoxesPerDay)"
+                  ]
                 }
               ]
             },
@@ -10910,74 +11423,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Box",
-                    "60",
-                    "530",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BoxesRemaining",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Box",
-                    "boxIndex",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Box",
-                    "Specifications.Color",
-                    "=",
-                    "\"Blue\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Box",
-                    "Specifications.Shape",
-                    "=",
-                    "\"Circle\""
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -10993,6 +11439,16 @@
                 },
                 {
                   "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "BoxesSpawned",
+                    "<",
+                    "GlobalVariable(BoxesPerDay)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -11019,58 +11475,394 @@
                     "Box",
                     "boxIndex",
                     "=",
-                    "1"
+                    "Random(8)+1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Box",
+                        "boxIndex",
+                        "=",
+                        "Box_1.Variable(Box_Index)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Shape",
+                        "=",
+                        "\"Circle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Color",
+                        "=",
+                        "\"Blue\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Box",
-                    "Specifications.Shape",
-                    "=",
-                    "\"Triangle\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Box",
+                        "boxIndex",
+                        "=",
+                        "Box_2.Variable(Box_Index)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Shape",
+                        "=",
+                        "\"Triangle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Color",
+                        "=",
+                        "\"Green\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Box",
-                    "Specifications.Color",
-                    "=",
-                    "\"Green\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Box",
+                        "boxIndex",
+                        "=",
+                        "Box_3.Variable(Box_Index)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Shape",
+                        "=",
+                        "\"Square\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Color",
+                        "=",
+                        "\"Red\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"BoxSpawn\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Box",
+                        "boxIndex",
+                        "=",
+                        "Box_4.Variable(Box_Index)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Shape",
+                        "=",
+                        "\"Square\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Color",
+                        "=",
+                        "\"Green\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BoxesRemaining",
-                    "+",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Box",
+                        "boxIndex",
+                        "=",
+                        "Box_5.Variable(Box_Index)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Shape",
+                        "=",
+                        "\"Circle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Color",
+                        "=",
+                        "\"Red\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BoxesPerDay",
-                    "+",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Box",
+                        "boxIndex",
+                        "=",
+                        "Box_6.Variable(Box_Index)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Shape",
+                        "=",
+                        "\"Triangle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Color",
+                        "=",
+                        "\"Blue\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Box",
+                        "boxIndex",
+                        "=",
+                        "Box_7.Variable(Box_Index)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Shape",
+                        "=",
+                        "\"Triangle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Color",
+                        "=",
+                        "\"Red\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Box",
+                        "boxIndex",
+                        "=",
+                        "Box_8.Variable(Box_Index)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Shape",
+                        "=",
+                        "\"Square\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Color",
+                        "=",
+                        "\"Blue\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Box",
+                        "boxIndex",
+                        "=",
+                        "Box_9.Variable(Box_Index)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Shape",
+                        "=",
+                        "\"Circle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Specifications.Color",
+                        "=",
+                        "\"Green\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "BoxesSpawned",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"BoxSpawn\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -11080,11 +11872,116 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"BoxSpawn\"",
+                        ">=",
+                        "20"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "BoxesRemaining",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RemoveTimer"
                   },
                   "parameters": [
-                    "BuyMenu",
+                    "",
+                    "\"BoxSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"End Result\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TotalGainedPerDay",
+                        "=",
+                        "GlobalVariable(EarnedPerDay)-GlobalVariable(Rent)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "MONEY",
+                        "-",
+                        "GlobalVariable(Rent)"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BuyMenuButton",
+                    "ButtonFSM",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"End Result\""
                   ]
                 }
               ],
@@ -11100,64 +11997,103 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "NextShiftButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"End Result\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BoxesPerDay",
+                    "+",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BoxesRemaining",
+                    "=",
+                    "GlobalVariable(BoxesPerDay)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BoxesSpawned",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "EarnedPerDay",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "ShiftDay",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"End Result\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"BoxSpawn\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "BoxesPerDay",
-                ">=",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "BoxesRemaining",
-                "<=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"BoxSpawn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "TotalGainedPerDay",
-                "=",
-                "GlobalVariable(EarnedPerDay) - GlobalVariable(Rent)"
-              ]
-            },
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"End Result\""
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -11525,12 +12461,28 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "BackButton",
-          "persistentUuid": "957ca775-bef6-4cb9-9661-80b58df1586f",
+          "name": "MoneyText",
+          "persistentUuid": "d2105138-559b-46a4-a4e3-47dbdfe31e5a",
           "width": 0,
-          "x": 1610,
-          "y": 935,
-          "zOrder": 8,
+          "x": 876,
+          "y": 126,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 150,
+          "layer": "",
+          "name": "NextShiftButton",
+          "persistentUuid": "3c69b9a7-0a5a-4e99-9962-924221722d47",
+          "width": 300,
+          "x": 1583,
+          "y": 899,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11540,12 +12492,12 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "MoneyText",
-          "persistentUuid": "d2105138-559b-46a4-a4e3-47dbdfe31e5a",
+          "name": "NextShiftText",
+          "persistentUuid": "3e6ce1cb-39a3-4e14-81d8-367ee676dd30",
           "width": 0,
-          "x": 876,
-          "y": 126,
-          "zOrder": 9,
+          "x": 1616,
+          "y": 945,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11942,69 +12894,6 @@
           }
         },
         {
-          "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-          "name": "BackButton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 10,
-            "BottomPadding": 32,
-            "TopPadding": 16,
-            "HoveredFadeOutDuration": 0.25
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Green Button_Hovered.png",
-              "tiled": true,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Idle": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Green Button_Idle.png",
-              "tiled": true,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "<- Back",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 40,
-              "color": {
-                "b": 29,
-                "g": 99,
-                "r": 62
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 16,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Green Button_Pressed.png",
-              "tiled": true,
-              "topMargin": 32,
-              "width": 256
-            }
-          }
-        },
-        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -12016,6 +12905,205 @@
           "effects": [],
           "behaviors": [],
           "string": "$0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NextShiftButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite21",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NextShiftText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Next Shift",
           "font": "",
           "textAlignment": "left",
           "characterSize": 50,
@@ -12051,7 +13139,10 @@
             "objectName": "PostponeSticker"
           },
           {
-            "objectName": "BackButton"
+            "objectName": "NextShiftButton"
+          },
+          {
+            "objectName": "NextShiftText"
           },
           {
             "objectName": "MoneyText"
@@ -12882,15 +13973,66 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "BackButton",
+                "NextShiftButton",
+                "ButtonFSM",
                 ""
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BoxesPerDay",
+                "+",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BoxesRemaining",
+                "=",
+                "GlobalVariable(BoxesPerDay)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BoxesSpawned",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "EarnedPerDay",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "ShiftDay",
+                "+",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -12999,6 +14141,18 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonAnimationName",
+          "type": "ButtonStates::ButtonAnimationName"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
