@@ -9882,7 +9882,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Box Rotations",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9892,12 +9891,29 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "ChevronArrowUp",
-                        "ButtonFSM",
-                        ""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
+                          },
+                          "parameters": [
+                            "ChevronArrowUp",
+                            "ButtonFSM",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Up"
+                          ]
+                        }
                       ]
                     },
                     {
@@ -9908,6 +9924,12 @@
                         "ChevronArrowUp",
                         "\"Inspect\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -9922,19 +9944,8 @@
                           "parameters": [
                             "Box_1",
                             "Animation",
-                            "!=",
-                            "\"Top\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                          },
-                          "parameters": [
-                            "Box_1",
-                            "Animation",
-                            "!=",
-                            "\"Bottom\""
+                            "=",
+                            "\"Front\""
                           ]
                         }
                       ],
@@ -10215,12 +10226,29 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "ChevronArrowDown",
-                        "ButtonFSM",
-                        ""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
+                          },
+                          "parameters": [
+                            "ChevronArrowDown",
+                            "ButtonFSM",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Down"
+                          ]
+                        }
                       ]
                     },
                     {
@@ -10231,6 +10259,12 @@
                         "ChevronArrowUp",
                         "\"Inspect\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -10245,19 +10279,8 @@
                           "parameters": [
                             "Box_1",
                             "Animation",
-                            "!=",
-                            "\"Top\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                          },
-                          "parameters": [
-                            "Box_1",
-                            "Animation",
-                            "!=",
-                            "\"Bottom\""
+                            "=",
+                            "\"Front\""
                           ]
                         }
                       ],
@@ -10538,12 +10561,29 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "ChevronArrowLeft",
-                        "ButtonFSM",
-                        ""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
+                          },
+                          "parameters": [
+                            "ChevronArrowLeft",
+                            "ButtonFSM",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        }
                       ]
                     },
                     {
@@ -10554,6 +10594,12 @@
                         "ChevronArrowUp",
                         "\"Inspect\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -11102,12 +11148,29 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "ChevronArrowRight",
-                        "ButtonFSM",
-                        ""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
+                          },
+                          "parameters": [
+                            "ChevronArrowRight",
+                            "ButtonFSM",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Right"
+                          ]
+                        }
                       ]
                     },
                     {
@@ -11118,6 +11181,12 @@
                         "ChevronArrowUp",
                         "\"Inspect\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
