@@ -75,15 +75,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Right.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Yellow background.png",
         "kind": "image",
         "metadata": "",
@@ -93,58 +84,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/b72ba357cd522e20bcb63438ef9216c95a55f044f91d78825f496da1708ebdca_tiled_Yellow background.png",
           "name": "tiled_Yellow background.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Chevron-Arrow-Down.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Chevron-Arrow-Down.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/13805ec9e12ffce739dc61fad4c478d6800629286ae4fb0d1814ffeb9fb4fbf0_Chevron-Arrow-Down.png",
-          "name": "Chevron-Arrow-Down.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Chevron-Arrow-Left.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Chevron-Arrow-Left.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/5799ed4e9f2581eb591bc0ae8ac57721f5cfc93cd8a4e97ed04fe6b29b0f56b8_Chevron-Arrow-Left.png",
-          "name": "Chevron-Arrow-Left.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Chevron-Arrow-Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Chevron-Arrow-Right.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/afe50706def7a47730e0556dc031759efd60c1e365f46b6f7e3c23836320730e_Chevron-Arrow-Right.png",
-          "name": "Chevron-Arrow-Right.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Chevron-Arrow-Up.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Chevron-Arrow-Up.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/315d7c934008d9861ec17f50f3b1ff110c551218cb5056569a1ea636bd38658f_Chevron-Arrow-Up.png",
-          "name": "Chevron-Arrow-Up.png"
         }
       },
       {
@@ -182,33 +121,6 @@
         "name": "Chevron-Arrow-Right",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Box_1.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Box_1",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Left.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Left",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Top.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Top",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -275,24 +187,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Focused2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Focused2",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Pressed2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pressed2",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Focused3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -347,15 +241,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -365,34 +250,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Redo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Redo.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/da5c1b1e54ab4e02cec2f46820b689556e8c6c0bedeaefb92b0b6a046639b0be_Redo.png",
-          "name": "Redo.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Redo2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Redo",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -441,66 +304,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/New image3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image3",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite7",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite8",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite9",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/CartB.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "CartB",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/CartC.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "CartC",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -522,61 +331,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite10",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite11",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite12.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite12",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Right-Arrow.png.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right-Arrow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/91e09053deb6974f426debf11cf77b6ca72c64dfaffa8c4887732df66cde2c71_Right-Arrow.png",
-          "name": "Right-Arrow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Right-Arrow.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right-Arrow",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Right-Arrow2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right-Arrow2",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -771,15 +531,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Focused8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Focused8",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Focused9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -820,15 +571,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Pressed9",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/GameTitle.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "GameTitle",
         "smoothed": true,
         "userAdded": true
       },
@@ -964,24 +706,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Front3",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Front4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Front4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Right4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right4",
         "smoothed": true,
         "userAdded": true
       },
@@ -1131,24 +855,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite19.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite19",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite20.png\"}",
-        "name": "NewSprite20",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite21.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1171,15 +877,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Pressed13",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Cart_A (Final).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Cart_A (Final).png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1212,15 +909,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Clipboard(final).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Clipboard(final).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Box.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1239,57 +927,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BoxSprite_1.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "BoxSprite_1",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/BoxSprite_3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "BoxSprite_3",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Conveyor_Belt_Tier1(0).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Conveyor_Belt_Tier1(0).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Conveyor_Belt_Tier1(0).png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Conveyor_Belt_Tier1(0)",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Conveyor_Belt_Tier1(1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Conveyor_Belt_Tier1(1).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Conveyor_Belt_Tier1.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Conveyor_Belt_Tier1",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -1306,15 +949,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Conveyor_Belt_Tier3",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Conveyor_Belt_Tier2(0).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Conveyor_Belt_Tier2(0).png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1338,15 +972,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Conveyor_Belt_Tier3(0).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Conveyor_Belt_Tier3(0).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Conveyor_Belt_Tier3(0).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1360,15 +985,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Conveyor_Belt_Tier3(0)2",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Inspect_Table(final)1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Inspect_Table(final)1.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -5019,7 +4635,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "InspectSpot",
           "type": "Sprite",
@@ -5055,20 +4671,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14,
-                            "y": 11
+                            "x": 139,
+                            "y": 42
                           },
                           {
-                            "x": 479,
-                            "y": 11
+                            "x": 445.5,
+                            "y": 44.5
                           },
                           {
-                            "x": 479,
-                            "y": 229
+                            "x": 374,
+                            "y": 122.5
                           },
                           {
-                            "x": 14,
-                            "y": 229
+                            "x": 47.5,
+                            "y": 115.5
                           }
                         ]
                       ]
@@ -9011,7 +8627,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ConveyorBelt",
           "type": "Sprite",
@@ -9047,20 +8663,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 16
+                            "x": 40,
+                            "y": 32.5
                           },
                           {
-                            "x": 496,
-                            "y": 16
+                            "x": 500,
+                            "y": 89.5
                           },
                           {
-                            "x": 496,
-                            "y": 182
+                            "x": 445,
+                            "y": 131.5
                           },
                           {
-                            "x": 1,
-                            "y": 182
+                            "x": 3.5,
+                            "y": 73.5
                           }
                         ]
                       ]
@@ -9083,20 +8699,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 16
+                            "x": 40,
+                            "y": 32.5
                           },
                           {
-                            "x": 496,
-                            "y": 16
+                            "x": 500,
+                            "y": 89.5
                           },
                           {
-                            "x": 496,
-                            "y": 182
+                            "x": 445,
+                            "y": 131.5
                           },
                           {
-                            "x": 1,
-                            "y": 182
+                            "x": 3.5,
+                            "y": 73.5
                           }
                         ]
                       ]
@@ -9132,20 +8748,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 16
+                            "x": 40,
+                            "y": 32.5
                           },
                           {
-                            "x": 496,
-                            "y": 16
+                            "x": 500,
+                            "y": 89.5
                           },
                           {
-                            "x": 496,
-                            "y": 182
+                            "x": 445,
+                            "y": 131.5
                           },
                           {
-                            "x": 1,
-                            "y": 182
+                            "x": 3.5,
+                            "y": 73.5
                           }
                         ]
                       ]
@@ -9168,20 +8784,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 16
+                            "x": 40,
+                            "y": 32.5
                           },
                           {
-                            "x": 496,
-                            "y": 16
+                            "x": 500,
+                            "y": 89.5
                           },
                           {
-                            "x": 496,
-                            "y": 182
+                            "x": 445,
+                            "y": 131.5
                           },
                           {
-                            "x": 1,
-                            "y": 182
+                            "x": 3.5,
+                            "y": 73.5
                           }
                         ]
                       ]
@@ -9217,20 +8833,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 16
+                            "x": 40,
+                            "y": 32.5
                           },
                           {
-                            "x": 496,
-                            "y": 16
+                            "x": 500,
+                            "y": 89.5
                           },
                           {
-                            "x": 496,
-                            "y": 182
+                            "x": 445,
+                            "y": 131.5
                           },
                           {
-                            "x": 1,
-                            "y": 182
+                            "x": 3.5,
+                            "y": 73.5
                           }
                         ]
                       ]
@@ -9253,20 +8869,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 16
+                            "x": 40,
+                            "y": 32.5
                           },
                           {
-                            "x": 496,
-                            "y": 16
+                            "x": 500,
+                            "y": 89.5
                           },
                           {
-                            "x": 496,
-                            "y": 182
+                            "x": 445,
+                            "y": 131.5
                           },
                           {
-                            "x": 1,
-                            "y": 182
+                            "x": 3.5,
+                            "y": 73.5
                           }
                         ]
                       ]
@@ -9281,6 +8897,23 @@
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "ConveyorPlatforms",
+            "children": [
+              {
+                "objectName": "InspectButton_Text"
+              },
+              {
+                "objectName": "InspectButton"
+              },
+              {
+                "objectName": "InspectSpot"
+              },
+              {
+                "objectName": "ConveyorBelt"
+              }
+            ]
+          },
           {
             "folderName": "Inspect_UI",
             "children": [
@@ -9372,15 +9005,6 @@
             "objectName": "YellowBackground"
           },
           {
-            "objectName": "InspectButton"
-          },
-          {
-            "objectName": "InspectButton_Text"
-          },
-          {
-            "objectName": "InspectSpot"
-          },
-          {
             "objectName": "DayText"
           },
           {
@@ -9409,9 +9033,6 @@
           },
           {
             "objectName": "DurabilityPercentage"
-          },
-          {
-            "objectName": "ConveyorBelt"
           }
         ]
       },
@@ -10536,6 +10157,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Box Rotations",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -12578,6 +12200,71 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "name": "Box Gravity",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Box",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Box",
+                    "ConveyorBelt",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Box",
+                    "InspectSpot",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Box",
+                    "0",
+                    "350",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
               "name": "Conveyor Belt",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12606,7 +12293,7 @@
                       "parameters": [
                         "Box",
                         "ConveyorSpeed",
-                        "0",
+                        "5",
                         "0"
                       ]
                     }
@@ -13436,7 +13123,7 @@
                     "",
                     "Box",
                     "60",
-                    "530",
+                    "-60",
                     ""
                   ]
                 },
