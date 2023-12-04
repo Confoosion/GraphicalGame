@@ -891,7 +891,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Cart_B(Final).png",
+        "file": "assets/Cart_B(Final).png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cart_B(Final).png\",\"extension\":\".png\"}",
         "name": "Cart_B(Final).png",
@@ -900,7 +900,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Cart_C(Final).png",
+        "file": "assets/Cart_C(Final).png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cart_C(Final).png\",\"extension\":\".png\"}",
         "name": "Cart_C(Final).png",
