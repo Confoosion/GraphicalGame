@@ -1236,6 +1236,150 @@
         "name": "NewSprite22",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BoxSprite_1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BoxSprite_1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BoxSprite_3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BoxSprite_3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Conveyor_Belt_Tier1(0).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Conveyor_Belt_Tier1(0).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Conveyor_Belt_Tier1(0).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Conveyor_Belt_Tier1(0)",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Conveyor_Belt_Tier1(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Conveyor_Belt_Tier1(1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Conveyor_Belt_Tier1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Conveyor_Belt_Tier1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Conveyor_Belt_Tier2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Conveyor_Belt_Tier2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Conveyor_Belt_Tier3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Conveyor_Belt_Tier3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Conveyor_Belt_Tier2(0).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Conveyor_Belt_Tier2(0).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Conveyor_Belt_Tier2(0).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Conveyor_Belt_Tier2(0)",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Conveyor_Belt_Tier2(0)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Conveyor_Belt_Tier2(0)2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Conveyor_Belt_Tier3(0).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Conveyor_Belt_Tier3(0).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Conveyor_Belt_Tier3(0).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Conveyor_Belt_Tier3(0)",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Conveyor_Belt_Tier3(0)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Conveyor_Belt_Tier3(0)2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Inspect_Table(final)1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Inspect_Table(final)1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite23",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2693,7 +2837,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047024083,
+        "zoomFactor": 0.39251611754882654,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2814,30 +2958,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 175,
-          "layer": "",
-          "name": "Conveyor",
-          "persistentUuid": "8883ad3e-ff9f-4265-b967-9246721a36ef",
-          "width": 867,
-          "x": -24,
-          "y": 482,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "name": "InspectButton",
           "persistentUuid": "87852e6a-7848-4ef1-a589-200a128d912e",
           "width": 0,
-          "x": 1098,
-          "y": 542,
+          "x": 780,
+          "y": 640,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2851,8 +2979,8 @@
           "name": "InspectButton_Text",
           "persistentUuid": "dac52169-07e2-4060-b965-1bb9787da77c",
           "width": 0,
-          "x": 1114,
-          "y": 586,
+          "x": 796,
+          "y": 684,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2860,14 +2988,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
           "layer": "",
           "name": "InspectSpot",
           "persistentUuid": "0c1ff004-edc7-4659-b9ef-6ea557a02d8b",
-          "width": 0,
-          "x": 828,
-          "y": 453,
+          "width": 535,
+          "x": 665,
+          "y": 496,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2896,8 +3025,8 @@
           "name": "BoxesLeft_Text",
           "persistentUuid": "5f9babd4-a3c7-4933-86be-f701ca8966bc",
           "width": 0,
-          "x": 1457,
-          "y": 60,
+          "x": 32,
+          "y": 1007,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -2912,8 +3041,8 @@
           "name": "Cart",
           "persistentUuid": "e69dc667-564f-4f60-b85f-2d7501e08e7e",
           "width": 400,
-          "x": 154,
-          "y": 683,
+          "x": 1500,
+          "y": -40,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -2933,8 +3062,8 @@
           "name": "Cart",
           "persistentUuid": "7b752670-6389-40c4-bb15-8540a76d0c1b",
           "width": 400,
-          "x": 756,
-          "y": 683,
+          "x": 1500,
+          "y": 350,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -2954,8 +3083,8 @@
           "name": "Cart",
           "persistentUuid": "7af84877-8f29-47e0-a51c-8a6e49996443",
           "width": 400,
-          "x": 1352,
-          "y": 697,
+          "x": 1500,
+          "y": 740,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -3014,22 +3143,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 178,
-          "layer": "",
-          "name": "InspectSpot",
-          "persistentUuid": "46ace977-4cdf-4bd2-9917-b8cc1f5706be",
-          "width": 17,
-          "x": 1467,
-          "y": 289,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "Inspect",
@@ -3051,8 +3164,8 @@
           "name": "MoneyText",
           "persistentUuid": "8219ef40-5355-4b25-8bf0-ca0ae5425d3e",
           "width": 0,
-          "x": 1797,
-          "y": 113,
+          "x": 38,
+          "y": 947,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -3343,6 +3456,22 @@
           "x": 667,
           "y": 827,
           "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 400,
+          "layer": "",
+          "name": "ConveyorBelt",
+          "persistentUuid": "10eed473-626b-4355-9c3c-00b7bd38da8a",
+          "width": 1000,
+          "x": -156,
+          "y": 374,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4431,7 +4560,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Box",
           "type": "Sprite",
@@ -4513,7 +4642,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
+                      "image": "BoxSprite_3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4529,20 +4658,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 20.5,
+                            "y": 45.5
                           },
                           {
-                            "x": 100,
-                            "y": 0
+                            "x": 88.5,
+                            "y": 24.5
                           },
                           {
-                            "x": 100,
-                            "y": 100
+                            "x": 157,
+                            "y": 51
                           },
                           {
-                            "x": 0,
-                            "y": 100
+                            "x": 156.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 85.5,
+                            "y": 154.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 121
                           }
                         ]
                       ]
@@ -4578,20 +4715,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 20.5,
+                            "y": 45.5
                           },
                           {
-                            "x": 100,
-                            "y": 0
+                            "x": 88.5,
+                            "y": 24.5
                           },
                           {
-                            "x": 100,
-                            "y": 100
+                            "x": 157,
+                            "y": 51
                           },
                           {
-                            "x": 0,
-                            "y": 100
+                            "x": 156.5,
+                            "y": 125.5
+                          },
+                          {
+                            "x": 85.5,
+                            "y": 154.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 121
                           }
                         ]
                       ]
@@ -4673,17 +4818,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 175,
-          "name": "Conveyor",
-          "texture": "New image2",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 175,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -4905,7 +5039,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
+                      "image": "NewSprite23",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4921,20 +5055,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 14,
+                            "y": 11
                           },
                           {
-                            "x": 225,
-                            "y": 0
+                            "x": 479,
+                            "y": 11
                           },
                           {
-                            "x": 225,
-                            "y": 225
+                            "x": 479,
+                            "y": 229
                           },
                           {
-                            "x": 0,
-                            "y": 225
+                            "x": 14,
+                            "y": 229
                           }
                         ]
                       ]
@@ -4988,7 +5122,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Cart",
           "type": "Sprite",
@@ -5171,20 +5305,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 44,
+                            "y": 126
+                          },
+                          {
+                            "x": 216,
+                            "y": 102.5
                           },
                           {
                             "x": 477,
-                            "y": 56
+                            "y": 133
                           },
                           {
-                            "x": 477,
-                            "y": 423
+                            "x": 450.5,
+                            "y": 353
                           },
                           {
-                            "x": 48,
-                            "y": 423
+                            "x": 318.5,
+                            "y": 392
+                          },
+                          {
+                            "x": 81.5,
+                            "y": 352
                           }
                         ]
                       ]
@@ -5220,20 +5362,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 44,
+                            "y": 126
+                          },
+                          {
+                            "x": 216,
+                            "y": 102.5
                           },
                           {
                             "x": 477,
-                            "y": 56
+                            "y": 133
                           },
                           {
-                            "x": 477,
-                            "y": 423
+                            "x": 450.5,
+                            "y": 353
                           },
                           {
-                            "x": 48,
-                            "y": 423
+                            "x": 318.5,
+                            "y": 392
+                          },
+                          {
+                            "x": 81.5,
+                            "y": 352
                           }
                         ]
                       ]
@@ -5269,20 +5419,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 48,
-                            "y": 56
+                            "x": 44,
+                            "y": 126
+                          },
+                          {
+                            "x": 216,
+                            "y": 102.5
                           },
                           {
                             "x": 477,
-                            "y": 56
+                            "y": 133
                           },
                           {
-                            "x": 477,
-                            "y": 423
+                            "x": 450.5,
+                            "y": 353
                           },
                           {
-                            "x": 48,
-                            "y": 423
+                            "x": 318.5,
+                            "y": 392
+                          },
+                          {
+                            "x": 81.5,
+                            "y": 352
                           }
                         ]
                       ]
@@ -8851,6 +9009,273 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ConveyorBelt",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Conveyor_Belt_Tier1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 182
+                          },
+                          {
+                            "x": 1,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 182
+                          },
+                          {
+                            "x": 1,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Conveyor_Belt_Tier2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier2(0)",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 182
+                          },
+                          {
+                            "x": 1,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier2(0)2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 182
+                          },
+                          {
+                            "x": 1,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Conveyor_Belt_Tier3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier3(0)",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 182
+                          },
+                          {
+                            "x": 1,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier3(0)2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 16
+                          },
+                          {
+                            "x": 496,
+                            "y": 182
+                          },
+                          {
+                            "x": 1,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8947,9 +9372,6 @@
             "objectName": "YellowBackground"
           },
           {
-            "objectName": "Conveyor"
-          },
-          {
             "objectName": "InspectButton"
           },
           {
@@ -8987,6 +9409,9 @@
           },
           {
             "objectName": "DurabilityPercentage"
+          },
+          {
+            "objectName": "ConveyorBelt"
           }
         ]
       },
@@ -12166,7 +12591,7 @@
                       },
                       "parameters": [
                         "Box",
-                        "Conveyor",
+                        "ConveyorBelt",
                         "",
                         "",
                         ""
