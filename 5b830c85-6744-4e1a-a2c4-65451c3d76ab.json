@@ -1203,6 +1203,42 @@
         "name": "Robot_1(final)2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Glovesfinal.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Glovesfinal.png\",\"extension\":\".png\"}",
+        "name": "Glovesfinal.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Housefinal.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Housefinal.png\",\"extension\":\".png\"}",
+        "name": "Housefinal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Backgroundfinal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Backgroundfinal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Backgroundfinal.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Backgroundfinal",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2647,15 +2683,15 @@
       ]
     },
     {
-      "b": 155,
+      "b": 212,
       "disableInputWhenNotFocused": true,
       "mangledName": "MainGame",
       "name": "MainGame",
-      "r": 155,
+      "r": 212,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 155,
+      "v": 212,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -2666,7 +2702,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39251611754882654,
+        "zoomFactor": 0.3673257545058861,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2679,22 +2715,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 2861,
-          "layer": "Background",
-          "name": "YellowBackground",
-          "persistentUuid": "c34bf40b-9d7b-4264-adac-37512e4e3799",
-          "width": 4877,
-          "x": -1297,
-          "y": -793,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -2793,8 +2813,8 @@
           "name": "InspectButton",
           "persistentUuid": "87852e6a-7848-4ef1-a589-200a128d912e",
           "width": 0,
-          "x": 810,
-          "y": 880,
+          "x": 814,
+          "y": 694,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2808,8 +2828,8 @@
           "name": "InspectButton_Text",
           "persistentUuid": "dac52169-07e2-4060-b965-1bb9787da77c",
           "width": 0,
-          "x": 826,
-          "y": 924,
+          "x": 830,
+          "y": 738,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2824,8 +2844,8 @@
           "name": "InspectSpot",
           "persistentUuid": "0c1ff004-edc7-4659-b9ef-6ea557a02d8b",
           "width": 535,
-          "x": 695,
-          "y": 736,
+          "x": 699,
+          "y": 550,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3298,8 +3318,8 @@
           "name": "ConveyorBelt",
           "persistentUuid": "10eed473-626b-4355-9c3c-00b7bd38da8a",
           "width": 1000,
-          "x": -126,
-          "y": 614,
+          "x": -122,
+          "y": 428,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3313,8 +3333,8 @@
           "name": "RobotHelper",
           "persistentUuid": "7e2f55c6-b312-47f6-8f7a-9fc19a5633b0",
           "width": 0,
-          "x": 94,
-          "y": 387,
+          "x": 47,
+          "y": 189,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3328,9 +3348,25 @@
           "name": "RobotHelper2",
           "persistentUuid": "83e0b556-5533-4eec-8b7b-a32c0a42c12e",
           "width": 0,
-          "x": 456,
-          "y": 417,
+          "x": 409,
+          "y": 228,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1080,
+          "layer": "Background",
+          "name": "MainBackground",
+          "persistentUuid": "80dcedf6-5702-4477-953b-16c99e4a459c",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9135,7 +9171,14 @@
           "name": "RobotHelper",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Occupied",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -9245,7 +9288,14 @@
           "name": "RobotHelper2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Occupied",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -9339,6 +9389,67 @@
                           {
                             "x": 59,
                             "y": 446
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MainBackground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Backgroundfinal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Backgroundfinal",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 500,
+                            "y": 0
+                          },
+                          {
+                            "x": 500,
+                            "y": 281
+                          },
+                          {
+                            "x": 0,
+                            "y": 281
                           }
                         ]
                       ]
@@ -9458,6 +9569,9 @@
             "objectName": "Box"
           },
           {
+            "objectName": "MainBackground"
+          },
+          {
             "objectName": "YellowBackground"
           },
           {
@@ -9519,7 +9633,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13477,6 +13590,322 @@
               ]
             },
             {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Randomizing Cart Specifications",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ToggleObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Cart",
+                        "LookingFor[Random(5)]"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "LookingFor[0]",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_A.Barcode",
+                            "=",
+                            "\"B\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_B.Barcode",
+                            "=",
+                            "\"A\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_C.Barcode",
+                            "=",
+                            "\"C\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "LookingFor[1]",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_A.BoxID",
+                            "=",
+                            "4976"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_B.BoxID",
+                            "=",
+                            "3981"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_C.BoxID",
+                            "=",
+                            "1325"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "LookingFor[2]",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_A.Color",
+                            "=",
+                            "\"Blue\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_B.Color",
+                            "=",
+                            "\"Green\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_C.Color",
+                            "=",
+                            "\"Red\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "LookingFor[3]",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_A.Shape",
+                            "=",
+                            "\"Triangle\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_B.Shape",
+                            "=",
+                            "\"Square\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_C.Shape",
+                            "=",
+                            "\"Circle\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "LookingFor[4]",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_A.Tape",
+                            "=",
+                            "\"T\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_B.Tape",
+                            "=",
+                            "\"I\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Cart",
+                            "Cart_C.Tape",
+                            "=",
+                            "\"V\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
               "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -15425,13 +15854,45 @@
           "customSize": true,
           "depth": 0,
           "height": 200,
-          "layer": "",
+          "layer": "Page1",
           "name": "OvertimeProduct",
           "persistentUuid": "5baa884a-3c3c-40c7-b1b5-6861502f1607",
           "width": 200,
           "x": 470,
           "y": 626,
           "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "layer": "",
+          "name": "Gloves",
+          "persistentUuid": "22cd7a55-9bfe-4f62-914b-e7551c6ab5ad",
+          "width": 200,
+          "x": 1224,
+          "y": 228,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "",
+          "name": "HouseProduct",
+          "persistentUuid": "dfe4fcd9-6dea-4df9-b117-b45917a748a6",
+          "width": 250,
+          "x": 1205,
+          "y": 619,
+          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20134,6 +20595,128 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Gloves",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Glovesfinal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Glovesfinal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 28,
+                            "y": 28
+                          },
+                          {
+                            "x": 462,
+                            "y": 28
+                          },
+                          {
+                            "x": 462,
+                            "y": 446
+                          },
+                          {
+                            "x": 28,
+                            "y": 446
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HouseProduct",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Housefinal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Housefinal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 121
+                          },
+                          {
+                            "x": 442,
+                            "y": 121
+                          },
+                          {
+                            "x": 442,
+                            "y": 350
+                          },
+                          {
+                            "x": 65,
+                            "y": 350
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -20277,10 +20860,16 @@
                     "objectName": "WetFloorSignProductLabel"
                   },
                   {
+                    "objectName": "Gloves"
+                  },
+                  {
                     "objectName": "GlovesProductLabel"
                   },
                   {
                     "objectName": "PromotionProductLabel"
+                  },
+                  {
+                    "objectName": "HouseProduct"
                   },
                   {
                     "objectName": "HouseProductLabel"
@@ -22711,7 +23300,7 @@
           "isLocked": false,
           "name": "Page2",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22743,7 +23332,7 @@
           "isLocked": false,
           "name": "Page1",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
