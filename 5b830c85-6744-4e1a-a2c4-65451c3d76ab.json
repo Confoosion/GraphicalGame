@@ -14469,7 +14469,7 @@
           "customSize": true,
           "depth": 0,
           "height": 100,
-          "layer": "",
+          "layer": "Page1",
           "name": "FasterConveyorButton",
           "persistentUuid": "ff613360-0596-4848-b6c0-d19473d196a4",
           "width": 200,
@@ -14500,7 +14500,7 @@
           "customSize": true,
           "depth": 0,
           "height": 100,
-          "layer": "",
+          "layer": "Page1",
           "name": "BetterDurabilityButton",
           "persistentUuid": "5d65f9e6-db45-40c0-bfcb-c7c2db961181",
           "width": 200,
@@ -14516,7 +14516,7 @@
           "customSize": true,
           "depth": 0,
           "height": 100,
-          "layer": "",
+          "layer": "Page1",
           "name": "OvertimeButton",
           "persistentUuid": "e3e51cb9-355a-4c15-bc29-f76e22d8feca",
           "width": 200,
@@ -14532,7 +14532,7 @@
           "customSize": true,
           "depth": 0,
           "height": 100,
-          "layer": "",
+          "layer": "Page1",
           "name": "RobotHelperButton",
           "persistentUuid": "05965b84-c5e5-46b7-b353-4234042dcc74",
           "width": 200,
@@ -14815,6 +14815,147 @@
           "x": 1236,
           "y": 648,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "Page2",
+          "name": "WetFloorSignButton",
+          "persistentUuid": "ea01187f-b3bd-49f7-abdc-173e243d8667",
+          "width": 200,
+          "x": 470,
+          "y": 450,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 74,
+          "layer": "Page2",
+          "name": "WetFloorSignText",
+          "persistentUuid": "2c810c9f-6fa6-44b5-8171-5ead6befb6ff",
+          "width": 184,
+          "x": 478,
+          "y": 464,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Page2",
+          "name": "WetFloorSignInfoButton",
+          "persistentUuid": "3759e978-54e7-4399-b03a-6b80cdf6b276",
+          "width": 0,
+          "x": 730,
+          "y": 190,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "Page2",
+          "name": "GlovesButton",
+          "persistentUuid": "a16161a8-fb63-4ff1-a8e1-42f549091511",
+          "width": 200,
+          "x": 1228,
+          "y": 450,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "Page2",
+          "name": "HouseButton",
+          "persistentUuid": "f2c55155-14be-4e13-a190-8c7e547cda68",
+          "width": 200,
+          "x": 1228,
+          "y": 855,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "layer": "Page2",
+          "name": "GlovesText",
+          "persistentUuid": "df9b896b-6003-46e8-a078-7002bb5a3716",
+          "width": 199,
+          "x": 1229,
+          "y": 468,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Page2",
+          "name": "HouseInfoButton",
+          "persistentUuid": "9a261f4a-8a1f-4a95-9d5a-f1e1abe91dc1",
+          "width": 0,
+          "x": 1478,
+          "y": 601,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 72,
+          "layer": "Page2",
+          "name": "HouseText",
+          "persistentUuid": "4fa3087a-1ab4-4047-a847-6289bffbdc41",
+          "width": 225,
+          "x": 1216,
+          "y": 868,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Page2",
+          "name": "GlovesInfoButton",
+          "persistentUuid": "673b141d-96ed-4caa-99b9-5dbe5ae5b294",
+          "width": 0,
+          "x": 1481,
+          "y": 187,
+          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17607,6 +17748,1137 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "WetFloorSignButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "WetFloorSignText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "BUY FOR $150",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "WetFloorSignInfoButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "GlovesButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "GlovesText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "BUY FOR $300",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "GlovesInfoButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HouseButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "HouseText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "BUY FOR $1000",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HouseInfoButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -17619,40 +18891,77 @@
             "folderName": "Buttons",
             "children": [
               {
-                "objectName": "FasterConveyorButton"
+                "folderName": "Page1",
+                "children": [
+                  {
+                    "objectName": "FasterConveyorButton"
+                  },
+                  {
+                    "objectName": "ConveyorBeltText"
+                  },
+                  {
+                    "objectName": "ConveyorInfoButton"
+                  },
+                  {
+                    "objectName": "BetterDurabilityButton"
+                  },
+                  {
+                    "objectName": "DurabilityText"
+                  },
+                  {
+                    "objectName": "DurabilityInfoButton"
+                  },
+                  {
+                    "objectName": "OvertimeButton"
+                  },
+                  {
+                    "objectName": "OvertimeText"
+                  },
+                  {
+                    "objectName": "OvertimeInfoButton"
+                  },
+                  {
+                    "objectName": "RobotHelperButton"
+                  },
+                  {
+                    "objectName": "RobotHelperText"
+                  },
+                  {
+                    "objectName": "RobotHelperInfoButton"
+                  }
+                ]
               },
               {
-                "objectName": "ConveyorBeltText"
-              },
-              {
-                "objectName": "ConveyorInfoButton"
-              },
-              {
-                "objectName": "BetterDurabilityButton"
-              },
-              {
-                "objectName": "DurabilityText"
-              },
-              {
-                "objectName": "DurabilityInfoButton"
-              },
-              {
-                "objectName": "OvertimeButton"
-              },
-              {
-                "objectName": "OvertimeText"
-              },
-              {
-                "objectName": "OvertimeInfoButton"
-              },
-              {
-                "objectName": "RobotHelperButton"
-              },
-              {
-                "objectName": "RobotHelperText"
-              },
-              {
-                "objectName": "RobotHelperInfoButton"
+                "folderName": "Page2",
+                "children": [
+                  {
+                    "objectName": "WetFloorSignButton"
+                  },
+                  {
+                    "objectName": "WetFloorSignText"
+                  },
+                  {
+                    "objectName": "WetFloorSignInfoButton"
+                  },
+                  {
+                    "objectName": "GlovesButton"
+                  },
+                  {
+                    "objectName": "GlovesText"
+                  },
+                  {
+                    "objectName": "GlovesInfoButton"
+                  },
+                  {
+                    "objectName": "HouseButton"
+                  },
+                  {
+                    "objectName": "HouseText"
+                  },
+                  {
+                    "objectName": "HouseInfoButton"
+                  }
+                ]
               },
               {
                 "objectName": "NextButton"
@@ -18407,7 +19716,7 @@
           "isLocked": false,
           "name": "Page2",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -18439,7 +19748,7 @@
           "isLocked": false,
           "name": "Page1",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
