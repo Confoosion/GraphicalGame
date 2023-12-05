@@ -1131,6 +1131,78 @@
         "name": "Robot_0(final)",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wet floor sign(Final).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Wet floor sign(Final).png\",\"extension\":\".png\"}",
+        "name": "Wet floor sign(Final).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Focused19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Focused17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pressed18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pressed17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clockfinal.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Clockfinal.png\",\"extension\":\".png\"}",
+        "name": "Clockfinal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_1(final).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Robot_1(final)",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_1(final)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Robot_1(final)2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1328,29 +1400,23 @@
       "folded": true,
       "name": "MONEY",
       "type": "number",
-      "value": 50
+      "value": 20
     },
     {
       "folded": true,
-      "name": "FasterConveyorBool",
-      "type": "boolean",
-      "value": false
+      "name": "ConveyorSpeed",
+      "type": "number",
+      "value": 40
     },
     {
       "folded": true,
-      "name": "BuyHelperBool",
-      "type": "boolean",
-      "value": false
+      "name": "FasterConveyorTier",
+      "type": "number",
+      "value": 1
     },
     {
       "folded": true,
       "name": "MoreDurabilityBool",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "folded": true,
-      "name": "StorageCartBool",
       "type": "boolean",
       "value": false
     },
@@ -1362,15 +1428,27 @@
     },
     {
       "folded": true,
-      "name": "PostponeStickerBool",
+      "name": "RobotHelpers",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "WetFloorSignsBool",
       "type": "boolean",
       "value": false
     },
     {
       "folded": true,
-      "name": "ConveyorSpeed",
-      "type": "number",
-      "value": 50
+      "name": "GlovesBool",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "PromotionBool",
+      "type": "boolean",
+      "value": false
     },
     {
       "folded": true,
@@ -2715,8 +2793,8 @@
           "name": "InspectButton",
           "persistentUuid": "87852e6a-7848-4ef1-a589-200a128d912e",
           "width": 0,
-          "x": 780,
-          "y": 640,
+          "x": 810,
+          "y": 880,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2730,8 +2808,8 @@
           "name": "InspectButton_Text",
           "persistentUuid": "dac52169-07e2-4060-b965-1bb9787da77c",
           "width": 0,
-          "x": 796,
-          "y": 684,
+          "x": 826,
+          "y": 924,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2746,8 +2824,8 @@
           "name": "InspectSpot",
           "persistentUuid": "0c1ff004-edc7-4659-b9ef-6ea557a02d8b",
           "width": 535,
-          "x": 665,
-          "y": 496,
+          "x": 695,
+          "y": 736,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3220,9 +3298,39 @@
           "name": "ConveyorBelt",
           "persistentUuid": "10eed473-626b-4355-9c3c-00b7bd38da8a",
           "width": 1000,
-          "x": -156,
-          "y": 374,
+          "x": -126,
+          "y": 614,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RobotHelper",
+          "persistentUuid": "7e2f55c6-b312-47f6-8f7a-9fc19a5633b0",
+          "width": 0,
+          "x": 94,
+          "y": 387,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RobotHelper2",
+          "persistentUuid": "83e0b556-5533-4eec-8b7b-a32c0a42c12e",
+          "width": 0,
+          "x": 456,
+          "y": 417,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9020,6 +9128,226 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "RobotHelper",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "RobotIdle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Robot_0(final)",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 30
+                          },
+                          {
+                            "x": 393,
+                            "y": 30
+                          },
+                          {
+                            "x": 393,
+                            "y": 446
+                          },
+                          {
+                            "x": 59,
+                            "y": 446
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "RobotPickUp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Robot_1(final)",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 30
+                          },
+                          {
+                            "x": 393,
+                            "y": 30
+                          },
+                          {
+                            "x": 393,
+                            "y": 446
+                          },
+                          {
+                            "x": 59,
+                            "y": 446
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "RobotHelper2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "RobotIdle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Robot_0(final)",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 30
+                          },
+                          {
+                            "x": 393,
+                            "y": 30
+                          },
+                          {
+                            "x": 393,
+                            "y": 446
+                          },
+                          {
+                            "x": 59,
+                            "y": 446
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "RobotPickUp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Robot_1(final)2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 30
+                          },
+                          {
+                            "x": 393,
+                            "y": 30
+                          },
+                          {
+                            "x": 393,
+                            "y": 446
+                          },
+                          {
+                            "x": 59,
+                            "y": 446
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9161,6 +9489,12 @@
           },
           {
             "objectName": "DurabilityPercentage"
+          },
+          {
+            "objectName": "RobotHelper"
+          },
+          {
+            "objectName": "RobotHelper2"
           }
         ]
       },
@@ -9196,12 +9530,29 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "InspectButton",
-                        "ButtonFSM",
-                        ""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
+                          },
+                          "parameters": [
+                            "InspectButton",
+                            "ButtonFSM",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        }
                       ]
                     },
                     {
@@ -9223,6 +9574,12 @@
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -10297,29 +10654,12 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonFSM::IsClicked"
-                              },
-                              "parameters": [
-                                "ChevronArrowUp",
-                                "ButtonFSM",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Up"
-                              ]
-                            }
+                          "parameters": [
+                            "ChevronArrowUp",
+                            "ButtonFSM",
+                            ""
                           ]
                         },
                         {
@@ -10633,29 +10973,12 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonFSM::IsClicked"
-                              },
-                              "parameters": [
-                                "ChevronArrowDown",
-                                "ButtonFSM",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Down"
-                              ]
-                            }
+                          "parameters": [
+                            "ChevronArrowDown",
+                            "ButtonFSM",
+                            ""
                           ]
                         },
                         {
@@ -10969,29 +11292,12 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonFSM::IsClicked"
-                              },
-                              "parameters": [
-                                "ChevronArrowLeft",
-                                "ButtonFSM",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Left"
-                              ]
-                            }
+                          "parameters": [
+                            "ChevronArrowLeft",
+                            "ButtonFSM",
+                            ""
                           ]
                         },
                         {
@@ -11557,29 +11863,12 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "ButtonStates::ButtonFSM::IsClicked"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonFSM::IsClicked"
-                              },
-                              "parameters": [
-                                "ChevronArrowRight",
-                                "ButtonFSM",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Right"
-                              ]
-                            }
+                          "parameters": [
+                            "ChevronArrowRight",
+                            "ButtonFSM",
+                            ""
                           ]
                         },
                         {
@@ -12396,7 +12685,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Conveyor Belt",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13069,7 +13357,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Update UI",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13190,32 +13477,6 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "FasterConveyorBool",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "ConveyorSpeed",
-                    "=",
-                    "100"
-                  ]
-                }
-              ]
-            },
-            {
               "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -13255,8 +13516,8 @@
                   "parameters": [
                     "",
                     "Box",
-                    "60",
-                    "-60",
+                    "-100",
+                    "400",
                     ""
                   ]
                 },
@@ -13833,7 +14094,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "End Result Screen",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13945,6 +14205,17 @@
                         "MONEY",
                         "-",
                         "GlobalVariable(Rent)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "MoneyText",
+                        "Text",
+                        "=",
+                        "\"$\" + ToString(GlobalVariable(MONEY))"
                       ]
                     }
                   ],
@@ -14394,7 +14665,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41630252177333377,
+        "zoomFactor": 0.3895856273827304,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14730,14 +15001,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 70,
           "layer": "Page1",
           "name": "ConveyorProductLabel",
           "persistentUuid": "13228694-d34e-47d6-a7c2-9e81e8c39f2f",
-          "width": 0,
-          "x": 383,
-          "y": 193,
+          "width": 365,
+          "x": 358,
+          "y": 188,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -14790,14 +15062,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
           "layer": "Page1",
           "name": "RobotHelperProductLabel",
           "persistentUuid": "3c4997a5-afc7-45c7-889d-bacdd55635f4",
-          "width": 0,
-          "x": 1190,
-          "y": 608,
+          "width": 376,
+          "x": 1118,
+          "y": 591,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -14813,7 +15086,7 @@
           "persistentUuid": "513f79f7-68d2-41e6-a2bb-f4c9148bcedd",
           "width": 200,
           "x": 1236,
-          "y": 648,
+          "y": 656,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -14956,6 +15229,209 @@
           "x": 1481,
           "y": 187,
           "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "layer": "Page2",
+          "name": "WetFloorSign",
+          "persistentUuid": "1ee6d6b0-29c0-4335-90c1-426debdc01dc",
+          "width": 200,
+          "x": 477,
+          "y": 228,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Page2",
+          "name": "WetFloorSignProductLabel",
+          "persistentUuid": "5fddfae2-8016-48f7-827e-4ad8f9effcbf",
+          "width": 0,
+          "x": 405,
+          "y": 189,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Page2",
+          "name": "GlovesProductLabel",
+          "persistentUuid": "73c61879-fb5e-4d7a-a562-8f3464f3541b",
+          "width": 0,
+          "x": 1243,
+          "y": 192,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Page2",
+          "name": "HouseProductLabel",
+          "persistentUuid": "59b7e15f-0a07-4d1b-8b1a-674a8843e473",
+          "width": 0,
+          "x": 1214,
+          "y": 608,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 500,
+          "layer": "Info",
+          "name": "InfoBox",
+          "persistentUuid": "28e104a4-76a6-443b-83f9-240d07fe7d61",
+          "width": 500,
+          "x": 694,
+          "y": 267,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "Info",
+          "name": "InfoExitButton",
+          "persistentUuid": "2299aaff-701c-42f0-bd21-856b74228ac2",
+          "width": 50,
+          "x": 1137,
+          "y": 274,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "layer": "Info",
+          "name": "ProductLabel",
+          "persistentUuid": "495485d6-ef0a-4a8b-bf3c-f008543bf98b",
+          "width": 407,
+          "x": 710,
+          "y": 277,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 418,
+          "layer": "Info",
+          "name": "ProductDescription",
+          "persistentUuid": "87d12a1d-3382-4cf7-85be-5af56431ceb2",
+          "width": 459,
+          "x": 715,
+          "y": 319,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "Page2",
+          "name": "PromotionButton",
+          "persistentUuid": "51adb499-9e01-44bd-84f5-3a2880b4a54b",
+          "width": 200,
+          "x": 470,
+          "y": 855,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 65,
+          "layer": "Page2",
+          "name": "PromotionText",
+          "persistentUuid": "0a276185-e341-4add-ac3d-0585543bb4b2",
+          "width": 194,
+          "x": 472,
+          "y": 871,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Page2",
+          "name": "PromotionInfoButton",
+          "persistentUuid": "83e3b3b4-b6bb-495d-91a5-0d92dca7b41e",
+          "width": 0,
+          "x": 728,
+          "y": 598,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Page2",
+          "name": "PromotionProductLabel",
+          "persistentUuid": "e10892d2-006f-4c08-902f-7d3beb47a917",
+          "width": 0,
+          "x": 466,
+          "y": 606,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "layer": "",
+          "name": "OvertimeProduct",
+          "persistentUuid": "5baa884a-3c3c-40c7-b1b5-6861502f1607",
+          "width": 200,
+          "x": 470,
+          "y": 626,
+          "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16364,7 +16840,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "BUY FOR $50",
+          "string": "BUY FOR $100",
           "font": "",
           "textAlignment": "center",
           "characterSize": 30,
@@ -16385,7 +16861,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "BUY FOR $75",
+          "string": "BUY FOR $150",
           "font": "",
           "textAlignment": "center",
           "characterSize": 30,
@@ -16406,7 +16882,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "BUY FOR $75",
+          "string": "BUY FOR $150",
           "font": "",
           "textAlignment": "center",
           "characterSize": 30,
@@ -16427,7 +16903,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "BUY FOR $100",
+          "string": "BUY FOR $200",
           "font": "",
           "textAlignment": "center",
           "characterSize": 30,
@@ -17160,91 +17636,6 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Conveyor_Belt_Tier1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.5,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Conveyor_Belt_Tier2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 40,
-                            "y": 32.5
-                          },
-                          {
-                            "x": 500,
-                            "y": 89.5
-                          },
-                          {
-                            "x": 445,
-                            "y": 131.5
-                          },
-                          {
-                            "x": 3.5,
-                            "y": 73.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Conveyor_Belt_Tier3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 40,
-                            "y": 32.5
-                          },
-                          {
-                            "x": 500,
-                            "y": 89.5
-                          },
-                          {
-                            "x": 445,
-                            "y": 131.5
-                          },
-                          {
-                            "x": 3.5,
-                            "y": 73.5
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "Conveyor_Belt_Tier2",
               "useMultipleDirections": false,
               "directions": [
@@ -17429,7 +17820,7 @@
           "behaviors": [],
           "string": "FASTER CONVEYORS!!",
           "font": "",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "characterSize": 30,
           "color": {
             "b": 0,
@@ -17680,7 +18071,7 @@
           "behaviors": [],
           "string": "ROBOT HELPER!!!",
           "font": "",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "characterSize": 30,
           "color": {
             "b": 0,
@@ -17938,7 +18329,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "BUY FOR $150",
+          "string": "BUY FOR $300",
           "font": "",
           "textAlignment": "center",
           "characterSize": 30,
@@ -18315,7 +18706,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "BUY FOR $300",
+          "string": "BUY FOR $400",
           "font": "",
           "textAlignment": "center",
           "characterSize": 30,
@@ -18879,6 +19270,870 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "WetFloorSign",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Wet floor sign(Final)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Wet floor sign(Final).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 73,
+                            "y": 17
+                          },
+                          {
+                            "x": 418,
+                            "y": 17
+                          },
+                          {
+                            "x": 418,
+                            "y": 477
+                          },
+                          {
+                            "x": 73,
+                            "y": 477
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "WetFloorSignProductLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "WET FLOOR SIGNS!!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "GlovesProductLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "GLOVES!!!!!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "HouseProductLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "HOUSE!!!!! :O",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "InfoBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "InfoExitButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "ProductLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "A PRODUCT",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "ProductDescription",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "This will give you money!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PromotionButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "PromotionText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "BUY FOR $500",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PromotionInfoButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Focused",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Focused16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pressed16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 1
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "PromotionProductLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "PROMOTION!!!!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "OvertimeProduct",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Clockfinal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Clockfinal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 81,
+                            "y": 74
+                          },
+                          {
+                            "x": 436,
+                            "y": 74
+                          },
+                          {
+                            "x": 436,
+                            "y": 427
+                          },
+                          {
+                            "x": 81,
+                            "y": 427
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -18953,6 +20208,15 @@
                     "objectName": "GlovesInfoButton"
                   },
                   {
+                    "objectName": "PromotionButton"
+                  },
+                  {
+                    "objectName": "PromotionText"
+                  },
+                  {
+                    "objectName": "PromotionInfoButton"
+                  },
+                  {
                     "objectName": "HouseButton"
                   },
                   {
@@ -18990,6 +20254,9 @@
                     "objectName": "BoxProductLabel"
                   },
                   {
+                    "objectName": "OvertimeProduct"
+                  },
+                  {
                     "objectName": "OvertimeProductLabel"
                   },
                   {
@@ -19001,7 +20268,41 @@
                 ]
               },
               {
-                "folderName": "Page2"
+                "folderName": "Page2",
+                "children": [
+                  {
+                    "objectName": "WetFloorSign"
+                  },
+                  {
+                    "objectName": "WetFloorSignProductLabel"
+                  },
+                  {
+                    "objectName": "GlovesProductLabel"
+                  },
+                  {
+                    "objectName": "PromotionProductLabel"
+                  },
+                  {
+                    "objectName": "HouseProductLabel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "folderName": "InfoLayer",
+            "children": [
+              {
+                "objectName": "InfoBox"
+              },
+              {
+                "objectName": "InfoExitButton"
+              },
+              {
+                "objectName": "ProductLabel"
+              },
+              {
+                "objectName": "ProductDescription"
               }
             ]
           },
@@ -19028,7 +20329,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Buttons",
+          "name": "Buy Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -19047,23 +20348,101 @@
                 },
                 {
                   "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "VarGlobal"
                   },
                   "parameters": [
                     "MONEY",
-                    ">=",
-                    "50"
+                    "<",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "FasterConveyorTier",
+                    "<",
+                    "3"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetGlobalVariableAsBoolean"
+                    "value": "PlaySound"
                   },
                   "parameters": [
-                    "FasterConveyorBool",
-                    "True"
+                    "",
+                    "Error Sound.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "FasterConveyorButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    ">=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "FasterConveyorTier",
+                    "<",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FasterConveyorTier",
+                    "+",
+                    "1"
                   ]
                 },
                 {
@@ -19073,7 +20452,7 @@
                   "parameters": [
                     "MONEY",
                     "-",
-                    "50"
+                    "100"
                   ]
                 },
                 {
@@ -19086,6 +20465,16 @@
                     "",
                     "100",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "ConveyorSpeed",
+                    "+",
+                    "40"
                   ]
                 }
               ]
@@ -19105,59 +20494,11 @@
                 },
                 {
                   "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "MONEY",
-                    ">=",
-                    "75"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "MoreDurabilityBool",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "MONEY",
-                    "-",
-                    "75"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
                     "",
-                    "Buying Sound Effect.mp3",
-                    "",
-                    "100",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "OvertimeButton",
-                    "ButtonFSM"
+                    "\"Page1\""
                   ]
                 },
                 {
@@ -19166,127 +20507,8 @@
                   },
                   "parameters": [
                     "MONEY",
-                    ">=",
-                    "75"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "OvertimeBool",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "MONEY",
-                    "-",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "Buying Sound Effect.mp3",
-                    "",
-                    "100",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "RobotHelperButton",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "MONEY",
-                    ">=",
-                    "100"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "BuyHelperBool",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "MONEY",
-                    "-",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "Buying Sound Effect.mp3",
-                    "",
-                    "100",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "When false and clicked ",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "FasterConveyorButton",
-                    "ButtonFSM",
-                    ""
+                    "<",
+                    "150"
                   ]
                 },
                 {
@@ -19294,8 +20516,8 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "FasterConveyorBool",
-                    ""
+                    "MoreDurabilityBool",
+                    "False"
                   ]
                 }
               ],
@@ -19329,11 +20551,106 @@
                 },
                 {
                   "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    ">=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
                     "MoreDurabilityBool",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MoreDurabilityBool",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "-",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Buying Sound Effect.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "OvertimeButton",
+                    "ButtonFSM",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "<",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "OvertimeBool",
+                    "False"
                   ]
                 }
               ],
@@ -19366,11 +20683,107 @@
                 },
                 {
                   "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    ">=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
                     "OvertimeBool",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "OvertimeBool",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "-",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Buying Sound Effect.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "RobotHelperButton",
+                    "ButtonFSM",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "<",
+                    "200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "RobotHelpers",
+                    "<",
+                    "2"
                   ]
                 }
               ],
@@ -19404,11 +20817,108 @@
                 },
                 {
                   "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    ">=",
+                    "200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "RobotHelpers",
+                    "<",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "RobotHelpers",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "-",
+                    "200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Buying Sound Effect.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "WetFloorSignButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "<",
+                    "300"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "BuyHelperBool",
-                    ""
+                    "WetFloorSignsBool",
+                    "False"
                   ]
                 }
               ],
@@ -19426,6 +20936,765 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "WetFloorSignButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    ">=",
+                    "300"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "WetFloorSignsBool",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "WetFloorSignsBool",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "-",
+                    "300"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Buying Sound Effect.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "GlovesButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "<",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GlovesBool",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Error Sound.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "GlovesButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    ">=",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GlovesBool",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GlovesBool",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "-",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Buying Sound Effect.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "PromotionButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "<",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PromotionBool",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Error Sound.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "PromotionButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    ">=",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PromotionBool",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PromotionBool",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "-",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Buying Sound Effect.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "HouseButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "<",
+                    "1000"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Error Sound.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "HouseButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    ">=",
+                    "1000"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "-",
+                    "1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Buying Sound Effect.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Update UI",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "MoneyText",
+                    "Text",
+                    "=",
+                    "\"$\" + ToString(GlobalVariable(MONEY))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "FasterConveyorTier",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ConveyorProductLabel",
+                    "Text",
+                    "=",
+                    "\"EVEN FASTER CONVEYORS!!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "ConveyorBelt",
+                    "Animation",
+                    "=",
+                    "\"Conveyor_Belt_Tier3\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "RobotHelpers",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RobotHelperProductLabel",
+                    "Text",
+                    "=",
+                    "\"ANOTHER ROBOT HELPER!!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Update Buttons",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "FasterConveyorTier",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "ConveyorBeltText",
+                        "Text",
+                        "=",
+                        "\"SOLD OUT\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "MoreDurabilityBool",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "DurabilityText",
+                        "Text",
+                        "=",
+                        "\"SOLD OUT\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "OvertimeBool",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "OvertimeText",
+                        "Text",
+                        "=",
+                        "\"SOLD OUT\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "RobotHelpers",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "RobotHelperText",
+                        "Text",
+                        "=",
+                        "\"SOLD OUT\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "WetFloorSignsBool",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "WetFloorSignText",
+                        "Text",
+                        "=",
+                        "\"SOLD OUT\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "GlovesBool",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "GlovesText",
+                        "Text",
+                        "=",
+                        "\"SOLD OUT\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PromotionBool",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "PromotionText",
+                        "Text",
+                        "=",
+                        "\"SOLD OUT\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -19436,7 +21705,7 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
-          "name": "When true",
+          "name": "Info Box",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -19445,90 +21714,833 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "GlobalVariableAsBoolean"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "FasterConveyorBool",
-                    "True"
+                    "InfoExitButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "GlobalVariableAsBoolean"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "BuyHelperBool",
-                    "True"
+                    "ConveyorInfoButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductLabel",
+                    "Text",
+                    "=",
+                    "\"Faster Conveyor Belt\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductDescription",
+                    "Text",
+                    "=",
+                    "\"Buying this will upgrade the Conveyor Belt's tier. There are 3 total tiers and you start at tier 1.\nThe higher the tier, the faster the Conveyor Belt will be.\""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "GlobalVariableAsBoolean"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "MoreDurabilityBool",
-                    "True"
+                    "DurabilityInfoButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductLabel",
+                    "Text",
+                    "=",
+                    "\"Better Durability\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductDescription",
+                    "Text",
+                    "=",
+                    "\"Buying this will upgrade the Package's Durability.\nThis will decrease the amount of Durability lost when inspecting a Package.\""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "GlobalVariableAsBoolean"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "StorageCartBool",
-                    "True"
+                    "OvertimeInfoButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductLabel",
+                    "Text",
+                    "=",
+                    "\"Overtime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductDescription",
+                    "Text",
+                    "=",
+                    "\"Buying this will upgrade the countdown timer.\nThis will give you 15 extra seconds to finish your shift.\""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "GlobalVariableAsBoolean"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "OvertimeBool",
-                    "True"
+                    "RobotHelperInfoButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductLabel",
+                    "Text",
+                    "=",
+                    "\"Robot Helper\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductDescription",
+                    "Text",
+                    "=",
+                    "\"Buying this gives you a Robot Helper who will identify 1 Specification when they pick a Package up!\nRobot Helpers increase your rent by $15.\nYou can buy a total of 2 Robot Helpers.\""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "GlobalVariableAsBoolean"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "PostponeStickerBool",
+                    "WetFloorSignInfoButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductLabel",
+                    "Text",
+                    "=",
+                    "\"Wet Floor Signs\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductDescription",
+                    "Text",
+                    "=",
+                    "\"Buying this will give you three Wet Floor Signs.\nThese signs will tell you what Specifications are needed for each Cart without you having to click on a Cart.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "GlovesInfoButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductLabel",
+                    "Text",
+                    "=",
+                    "\"Gloves\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductDescription",
+                    "Text",
+                    "=",
+                    "\"Buying this will give you gloves.\nThese gloves stop the Durability of Packages from decreasing.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "PromotionInfoButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductLabel",
+                    "Text",
+                    "=",
+                    "\"Promotion\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductDescription",
+                    "Text",
+                    "=",
+                    "\"Buying this will instantly promote you!\nEach correct Package will guarantee you more money.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "HouseInfoButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Info\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductLabel",
+                    "Text",
+                    "=",
+                    "\"House\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProductDescription",
+                    "Text",
+                    "=",
+                    "\"You desperately want this house, and you can live the rest of your life happily.\nBuying this will END THE GAME.\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Turn Page",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "NextButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "PageNumber",
+                    "Text",
+                    "=",
+                    "\"2/2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "NextButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "PageNumber",
+                    "Text",
+                    "=",
+                    "\"1/2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "PreviousButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "PageNumber",
+                    "Text",
+                    "=",
+                    "\"2/2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "PreviousButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Page2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "PageNumber",
+                    "Text",
+                    "=",
+                    "\"1/2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
                     "True"
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPageTurned",
+                    "False"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -19606,23 +22618,6 @@
                 "",
                 "\"MainGame\"",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "MoneyText",
-                "Text",
-                "=",
-                "\"$\" + ToString(GlobalVariable(MONEY))"
               ]
             }
           ]
@@ -19716,7 +22711,7 @@
           "isLocked": false,
           "name": "Page2",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -19747,6 +22742,38 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Page1",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Info",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -26432,7 +29459,7 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "FasterConveyorBool",
+                    "FasterConveyorTier",
                     "True"
                   ]
                 }
