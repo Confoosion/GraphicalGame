@@ -1206,7 +1206,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Glovesfinal.png",
+        "file": "assets/Glovesfinal.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Glovesfinal.png\",\"extension\":\".png\"}",
         "name": "Glovesfinal.png",
@@ -1215,19 +1215,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Housefinal.png",
+        "file": "assets/Housefinal.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Housefinal.png\",\"extension\":\".png\"}",
         "name": "Housefinal.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Backgroundfinal.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Backgroundfinal.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1239,6 +1230,24 @@
         "name": "Backgroundfinal",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Moneyfinal.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Moneyfinal.png\",\"extension\":\".png\"}",
+        "name": "Moneyfinal.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3367,6 +3376,38 @@
           "x": 0,
           "y": 0,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 225,
+          "layer": "",
+          "name": "HelperTV",
+          "persistentUuid": "814644aa-55ab-4a30-babd-8a2cdcfff607",
+          "width": 350,
+          "x": 114,
+          "y": 17,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 225,
+          "layer": "",
+          "name": "HelperTV2",
+          "persistentUuid": "10d358e9-38af-4b74-b60f-39187acfcd0c",
+          "width": 350,
+          "x": 486,
+          "y": 15,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9459,6 +9500,128 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HelperTV",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite19",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HelperTV2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite19",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9566,6 +9729,23 @@
             ]
           },
           {
+            "folderName": "RobotHelpers",
+            "children": [
+              {
+                "objectName": "HelperTV"
+              },
+              {
+                "objectName": "RobotHelper"
+              },
+              {
+                "objectName": "HelperTV2"
+              },
+              {
+                "objectName": "RobotHelper2"
+              }
+            ]
+          },
+          {
             "objectName": "Box"
           },
           {
@@ -9603,12 +9783,6 @@
           },
           {
             "objectName": "DurabilityPercentage"
-          },
-          {
-            "objectName": "RobotHelper"
-          },
-          {
-            "objectName": "RobotHelper2"
           }
         ]
       },
@@ -15870,7 +16044,7 @@
           "customSize": true,
           "depth": 0,
           "height": 200,
-          "layer": "",
+          "layer": "Page2",
           "name": "Gloves",
           "persistentUuid": "22cd7a55-9bfe-4f62-914b-e7551c6ab5ad",
           "width": 200,
@@ -15886,13 +16060,29 @@
           "customSize": true,
           "depth": 0,
           "height": 250,
-          "layer": "",
+          "layer": "Page2",
           "name": "HouseProduct",
           "persistentUuid": "dfe4fcd9-6dea-4df9-b117-b45917a748a6",
           "width": 250,
           "x": 1205,
           "y": 619,
           "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "layer": "Page2",
+          "name": "PromotionProduct",
+          "persistentUuid": "2e166c85-7a90-463e-ab83-0486b9616e6c",
+          "width": 200,
+          "x": 472,
+          "y": 627,
+          "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20717,6 +20907,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PromotionProduct",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Moneyfinal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Moneyfinal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 79
+                          },
+                          {
+                            "x": 484,
+                            "y": 79
+                          },
+                          {
+                            "x": 484,
+                            "y": 431
+                          },
+                          {
+                            "x": 10,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -20864,6 +21115,9 @@
                   },
                   {
                     "objectName": "GlovesProductLabel"
+                  },
+                  {
+                    "objectName": "PromotionProduct"
                   },
                   {
                     "objectName": "PromotionProductLabel"
@@ -23300,7 +23554,7 @@
           "isLocked": false,
           "name": "Page2",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -23332,7 +23586,7 @@
           "isLocked": false,
           "name": "Page1",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
