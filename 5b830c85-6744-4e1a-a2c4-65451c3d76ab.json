@@ -464,7 +464,7 @@
         "alwaysLoaded": false,
         "file": "assets/Green Button_Pressed.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Green Button_Pressed.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Green Button_Pressed.png",
         "smoothed": true,
         "userAdded": false,
@@ -533,7 +533,7 @@
         "alwaysLoaded": false,
         "file": "assets/Focused9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Focused9.png\"}",
         "name": "Focused9",
         "smoothed": true,
         "userAdded": true
@@ -551,7 +551,7 @@
         "alwaysLoaded": false,
         "file": "assets/Idle2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle2.png\"}",
         "name": "Idle2",
         "smoothed": true,
         "userAdded": true
@@ -560,7 +560,7 @@
         "alwaysLoaded": false,
         "file": "assets/Focused10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Focused10.png\"}",
         "name": "Focused10",
         "smoothed": true,
         "userAdded": true
@@ -569,7 +569,7 @@
         "alwaysLoaded": false,
         "file": "assets/Pressed9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Pressed9.png\"}",
         "name": "Pressed9",
         "smoothed": true,
         "userAdded": true
@@ -1626,6 +1626,109 @@
         "name": "Title_screenfinal",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle5.png\"}",
+        "name": "Idle5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pressed19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Pressed19.png\"}",
+        "name": "Pressed18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Backgroundfinal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Backgroundfinal.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clipboardbroken2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Clipboardbroken2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Idle.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Green Button_Idle.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Hovered.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Green Button_Hovered.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MortgagePaperfinal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/MortgagePaperfinal.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Rollin at 5.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Rollin at 5.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Borke alert.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Borke alert.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/You Spent Money.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "You Spent Money.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/You're fired by Jake.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "You're fired by Jake.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1914,6 +2017,12 @@
       "name": "MONEY_Spent",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Mistakes",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -1937,7 +2046,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35269049347712317,
+        "zoomFactor": 0.3645833333333342,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2019,6 +2128,172 @@
           "x": 0,
           "y": 0,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Jake",
+          "persistentUuid": "0e4ba704-4d05-413f-a3b9-8c59fc2823d0",
+          "width": 0,
+          "x": 170,
+          "y": 225,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Calvin",
+          "persistentUuid": "e0c47e83-697e-4419-adc8-85a6cdc7ad7c",
+          "width": 0,
+          "x": 136,
+          "y": 316,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Music",
+          "persistentUuid": "c3b5e090-4b2f-400d-818d-191aca3c8ee8",
+          "width": 0,
+          "x": 203,
+          "y": 742,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 114,
+          "layer": "Credits",
+          "name": "Coders",
+          "persistentUuid": "9a460743-f6c2-481e-9ae1-7c03f08cec88",
+          "width": 345,
+          "x": 128,
+          "y": 100,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Artists",
+          "persistentUuid": "32c743e2-fb41-4a1b-8964-d6985d3f3cce",
+          "width": 0,
+          "x": 801,
+          "y": 50,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Jake",
+          "persistentUuid": "a6553406-0162-40da-8405-dc15cc408f73",
+          "width": 0,
+          "x": 825,
+          "y": 169,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Calvin",
+          "persistentUuid": "c09b0e9c-1304-4361-bc70-dc64d837cfc2",
+          "width": 0,
+          "x": 796,
+          "y": 264,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Music_by",
+          "persistentUuid": "19311d36-87f0-4b73-9d9c-032029e157db",
+          "width": 0,
+          "x": 798,
+          "y": 599,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "sounds",
+          "persistentUuid": "c848995a-d7c7-45d4-9040-98e07b84404f",
+          "width": 0,
+          "x": 1375,
+          "y": 100,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Calvin",
+          "persistentUuid": "dd82f3fd-43a1-4a7e-ac00-527fc008a35a",
+          "width": 0,
+          "x": 1399,
+          "y": 317,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Jake",
+          "persistentUuid": "2729b959-793e-4260-b465-cae215de2304",
+          "width": 0,
+          "x": 1435,
+          "y": 231,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2243,7 +2518,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Idle",
+                      "image": "Idle5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2341,7 +2616,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Pressed8",
+                      "image": "Pressed18",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2858,6 +3133,195 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Jake",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Jake Sales",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 243,
+            "g": 243,
+            "r": 243
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Calvin",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Calvin Hunter",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Music",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "\"Rollin at 5\" Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 4.0 License\nhttp://creativecommons.org/licenses/by/4.0/",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "created_by",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Created by: ",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 200,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Music_by",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Music",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Coders",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Coders",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Artists",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Artists",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "sounds",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Sounds",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2880,6 +3344,33 @@
           },
           {
             "objectName": "Background"
+          },
+          {
+            "objectName": "Jake"
+          },
+          {
+            "objectName": "Calvin"
+          },
+          {
+            "objectName": "Music"
+          },
+          {
+            "objectName": "created_by"
+          },
+          {
+            "objectName": "Music_by"
+          },
+          {
+            "objectName": "Coders"
+          },
+          {
+            "objectName": "Artists"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "sounds"
           }
         ]
       },
@@ -2916,6 +3407,201 @@
                     "",
                     "\"MainGame\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "OvertimeBool",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "RobotHelpersBool",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "WetFloorSignsBool",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GlovesBool",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PromotionBool",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "ConveyorSpeed",
+                    "=",
+                    "40"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Rent",
+                    "=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "EarnedPerDay",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TotalGainedPerDay",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BoxesSpawned",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "ShiftDay",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY_Earned",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY_Spent",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BoxesRemaining",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BoxChecking_Index",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BoxesPerDay",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY",
+                    "=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FasterConveyorTier",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DurabilityDecreaseTimer",
+                    "=",
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Mistakes",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -3174,6 +3860,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -10578,6 +11268,13 @@
                     "\"BoxSpawn\""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
               ]
             },
             {
@@ -16202,6 +16899,16 @@
                                     "value": "ModVarGlobal"
                                   },
                                   "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
                                     "MONEY",
                                     "-",
                                     "20"
@@ -16375,6 +17082,16 @@
                                     "EarnedPerDay",
                                     "-",
                                     "20"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
                                   ]
                                 },
                                 {
@@ -16562,6 +17279,16 @@
                                     "value": "ModVarGlobal"
                                   },
                                   "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
                                     "MONEY",
                                     "-",
                                     "20"
@@ -16742,6 +17469,16 @@
                                     "value": "ModVarGlobal"
                                   },
                                   "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
                                     "MONEY",
                                     "-",
                                     "20"
@@ -16915,6 +17652,16 @@
                                     "EarnedPerDay",
                                     "-",
                                     "20"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
                                   ]
                                 },
                                 {
@@ -17122,6 +17869,16 @@
                                     "value": "ModVarGlobal"
                                   },
                                   "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
                                     "MONEY",
                                     "-",
                                     "20"
@@ -17295,6 +18052,16 @@
                                     "EarnedPerDay",
                                     "-",
                                     "20"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
                                   ]
                                 },
                                 {
@@ -17482,6 +18249,16 @@
                                     "value": "ModVarGlobal"
                                   },
                                   "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
                                     "MONEY",
                                     "-",
                                     "20"
@@ -17662,6 +18439,16 @@
                                     "value": "ModVarGlobal"
                                   },
                                   "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
                                     "MONEY",
                                     "-",
                                     "20"
@@ -17825,6 +18612,16 @@
                                     "",
                                     "70",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
                                   ]
                                 },
                                 {
@@ -18042,6 +18839,16 @@
                                     "value": "ModVarGlobal"
                                   },
                                   "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
                                     "MONEY",
                                     "-",
                                     "20"
@@ -18222,6 +19029,16 @@
                                     "value": "ModVarGlobal"
                                   },
                                   "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
                                     "MONEY",
                                     "-",
                                     "20"
@@ -18385,6 +19202,16 @@
                                     "",
                                     "70",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
                                   ]
                                 },
                                 {
@@ -18565,6 +19392,16 @@
                                     "",
                                     "70",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
                                   ]
                                 },
                                 {
@@ -18755,6 +19592,16 @@
                                     "EarnedPerDay",
                                     "-",
                                     "20"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Mistakes",
+                                    "+",
+                                    "1"
                                   ]
                                 },
                                 {
@@ -25490,7 +26337,7 @@
                   },
                   "parameters": [
                     "",
-                    "Error Sound.mp3",
+                    "Borke alert.mp3",
                     "",
                     "100",
                     "1"
@@ -25578,7 +26425,7 @@
                   },
                   "parameters": [
                     "",
-                    "Buying Sound Effect.mp3",
+                    "You Spent Money.mp3",
                     "",
                     "100",
                     "1"
@@ -25646,7 +26493,7 @@
                   },
                   "parameters": [
                     "",
-                    "Error Sound.mp3",
+                    "Borke alert.mp3",
                     "",
                     "100",
                     "1"
@@ -25734,7 +26581,7 @@
                   },
                   "parameters": [
                     "",
-                    "Buying Sound Effect.mp3",
+                    "You Spent Money.mp3",
                     "",
                     "100",
                     "1"
@@ -25791,7 +26638,7 @@
                   },
                   "parameters": [
                     "",
-                    "Error Sound.mp3",
+                    "Borke alert.mp3",
                     "",
                     "100",
                     "1"
@@ -25876,7 +26723,7 @@
                   },
                   "parameters": [
                     "",
-                    "Buying Sound Effect.mp3",
+                    "You Spent Money.mp3",
                     "",
                     "100",
                     "1"
@@ -25933,7 +26780,7 @@
                   },
                   "parameters": [
                     "",
-                    "Error Sound.mp3",
+                    "Borke alert.mp3",
                     "",
                     "100",
                     "1"
@@ -26019,7 +26866,7 @@
                   },
                   "parameters": [
                     "",
-                    "Buying Sound Effect.mp3",
+                    "You Spent Money.mp3",
                     "",
                     "100",
                     "1"
@@ -26076,7 +26923,7 @@
                   },
                   "parameters": [
                     "",
-                    "Error Sound.mp3",
+                    "Borke alert.mp3",
                     "",
                     "100",
                     "1"
@@ -26162,7 +27009,7 @@
                   },
                   "parameters": [
                     "",
-                    "Buying Sound Effect.mp3",
+                    "You Spent Money.mp3",
                     "",
                     "100",
                     "1"
@@ -26219,7 +27066,7 @@
                   },
                   "parameters": [
                     "",
-                    "Error Sound.mp3",
+                    "Borke alert.mp3",
                     "",
                     "100",
                     "1"
@@ -26305,7 +27152,7 @@
                   },
                   "parameters": [
                     "",
-                    "Buying Sound Effect.mp3",
+                    "You Spent Money.mp3",
                     "",
                     "100",
                     "1"
@@ -26362,7 +27209,7 @@
                   },
                   "parameters": [
                     "",
-                    "Error Sound.mp3",
+                    "Borke alert.mp3",
                     "",
                     "100",
                     "1"
@@ -26448,7 +27295,7 @@
                   },
                   "parameters": [
                     "",
-                    "Buying Sound Effect.mp3",
+                    "You Spent Money.mp3",
                     "",
                     "100",
                     "1"
@@ -26496,7 +27343,7 @@
                   },
                   "parameters": [
                     "",
-                    "Error Sound.mp3",
+                    "Borke alert.mp3",
                     "",
                     "100",
                     "1"
@@ -26544,7 +27391,7 @@
                   },
                   "parameters": [
                     "",
-                    "Buying Sound Effect.mp3",
+                    "You Spent Money.mp3",
                     "",
                     "100",
                     "1"
@@ -35472,17 +36319,447 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.2890516203134927,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 5,
+          "height": 1163,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "b68cf933-3ffb-4ab4-b310-a7f2e08dad69",
+          "width": 2070,
+          "x": -44,
+          "y": -26,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1029,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "c64cb8b4-508f-4a9f-93cb-eea542c9b2c6",
+          "width": 772,
+          "x": 618,
+          "y": 18,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Layer",
+          "name": "You_lost",
+          "persistentUuid": "81e9a283-85df-4f7b-8128-5167a50902ac",
+          "width": 0,
+          "x": 825,
+          "y": 210,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Layer",
+          "name": "mistakesText",
+          "persistentUuid": "f8910eb7-eb38-47af-90ba-40d0be756227",
+          "width": 0,
+          "x": 854,
+          "y": 298,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Layer",
+          "name": "rent_text",
+          "persistentUuid": "408d9902-1340-4c36-87a8-f9be01304ba6",
+          "width": 0,
+          "x": 851,
+          "y": 380,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 47,
+          "height": 155,
+          "layer": "Layer",
+          "name": "MainMenu",
+          "persistentUuid": "53f7e9e6-9b07-4f6f-9fc8-f5dff7a4dcb5",
+          "width": 374,
+          "x": 817,
+          "y": 557,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Backgroundfinal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 500,
+                            "y": 0
+                          },
+                          {
+                            "x": 500,
+                            "y": 281
+                          },
+                          {
+                            "x": 0,
+                            "y": 281
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Clipboardbroken2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54,
+                            "y": 8
+                          },
+                          {
+                            "x": 701,
+                            "y": 8
+                          },
+                          {
+                            "x": 701,
+                            "y": 979
+                          },
+                          {
+                            "x": 54,
+                            "y": 979
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "You_lost",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "YOU'RE FIRED",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 61,
+            "g": 16,
+            "r": 224
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "mistakesText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You made 0 mistakes!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "rent_text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You don't have enough\n money to pay rent :(",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+          "name": "MainMenu",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Hovered.png2",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Idle.png2",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Main Menu",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 50,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Pressed.png",
+              "tiled": true,
+              "topMargin": 32,
+              "width": 256
+            }
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "You_lost"
+          },
+          {
+            "objectName": "mistakesText"
+          },
+          {
+            "objectName": "rent_text"
+          },
+          {
+            "objectName": "MainMenu"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "mistakesText",
+                "Text",
+                "=",
+                "\"You made \" + ToString(GlobalVariable(Mistakes)) + \" mistakes!\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "MainMenu",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MainMenu\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "You're fired by Jake.mp3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -35526,9 +36803,70 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     },
     {
       "b": 210,
@@ -35550,17 +36888,363 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.31928945896901684,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "aec85693-1efe-46bb-b29b-2e9d8fd5029f",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "shifts",
+          "persistentUuid": "5a758c84-0f7f-478d-a37e-ab454fceeef0",
+          "width": 0,
+          "x": 974,
+          "y": 261,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "moneyEarned",
+          "persistentUuid": "509b48ac-58a7-4e89-aab2-f9bcd59726ab",
+          "width": 0,
+          "x": 752,
+          "y": 490,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "MoneySpent",
+          "persistentUuid": "2a1056ca-d1b2-4e15-9b22-9f30267fa8c2",
+          "width": 0,
+          "x": 935,
+          "y": 699,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "MainMenu",
+          "persistentUuid": "e9a1f0a2-11ff-4336-8b7c-7abcfd2c9788",
+          "width": 0,
+          "x": 874,
+          "y": 869,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/MortgagePaperfinal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "moneyEarned",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You earned \n$0 in total!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "shifts",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You worked\n 0 shifts!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "MoneySpent",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You spent \n$0!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+          "name": "MainMenu",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Hovered.png2",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Idle.png2",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Main Menu",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Pressed.png",
+              "tiled": true,
+              "topMargin": 32,
+              "width": 256
+            }
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "moneyEarned"
+          },
+          {
+            "objectName": "shifts"
+          },
+          {
+            "objectName": "MoneySpent"
+          },
+          {
+            "objectName": "MainMenu"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "shifts",
+                "Text",
+                "=",
+                "\"You worked \n\" + ToString(GlobalVariable(ShiftDay)) + \" shifts!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "moneyEarned",
+                "Text",
+                "=",
+                "\"You earned \n$\" + ToString(GlobalVariable(MONEY_Earned)) + \" in total!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "MoneySpent",
+                "Text",
+                "=",
+                "\"You spent \n$\" + ToString(GlobalVariable(MONEY_Spent)) + \"!\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "MainMenu",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MainMenu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -35606,2638 +37290,40 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
-    {
-      "author": "westboy, daliyoucefmedakram@gmail.com, @bouh",
-      "category": "User interface",
-      "extensionNamespace": "",
-      "fullName": "Auto typing animation for text (\"typewriter\" effect)",
-      "helpPath": "",
-      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXR5cGV3cml0ZXIiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjAgMTNIMTZDMTYgMTQuMSAxNS4xIDE1IDE0IDE1SDEwQzguOSAxNSA4IDE0LjEgOCAxM0g0TDIgMThWMjBDMiAyMS4xIDIuOSAyMiA0IDIySDIwQzIxLjEgMjIgMjIgMjEuMSAyMiAyMFYxOE02IDIwQzUuMTEgMjAgNC42NiAxOC45MiA1LjI5IDE4LjI5QzUuOTIgMTcuNjYgNyAxOC4xMSA3IDE5QzcgMTkuNTUgNi41NSAyMCA2IDIwTTEwIDIwQzkuMTEgMjAgOC42NiAxOC45MiA5LjI5IDE4LjI5QzkuOTIgMTcuNjYgMTEgMTguMTEgMTEgMTlDMTEgMTkuNTUgMTAuNTUgMjAgMTAgMjBNMTQgMjBDMTMuMTEgMjAgMTIuNjYgMTguOTIgMTMuMjkgMTguMjlDMTMuOTIgMTcuNjYgMTUgMTguMTEgMTUgMTlDMTUgMTkuNTUgMTQuNTUgMjAgMTQgMjBNMTggMjBDMTcuMTEgMjAgMTYuNjYgMTguOTIgMTcuMjkgMTguMjlDMTcuOTIgMTcuNjYgMTkgMTguMTEgMTkgMTlDMTkgMTkuNTUgMTguNTUgMjAgMTggMjBNMTggMTBWM0g2VjEwSDNWMTJIMjFWMTBNOCA1SDE2VjZIOE04IDdIMTRWOEg4IiAvPjwvc3ZnPg==",
-      "name": "AutoTyping",
-      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/typewriter.svg",
-      "shortDescription": "Animate text to simulate it being written one character at at time (a \"typewriter\" effect).",
-      "version": "1.1.0",
-      "description": [
-        "Animate text to simulate it being written one character at at time (a \"typewriter\" effect), with a customizable time between each character. Useful for dialogue scenes or visual novels.",
-        "",
-        "How to use:",
-        "- Add the behavior to a Text object (BBText, Bitmap Text object) and choose the interval between characters.",
-        "",
-        "Tips:",
-        "- Change the typing speed with the \"Change interval\" action.",
-        "- Pause the typing and resume it at any time.",
-        "- Use the \"Skip to end of text\" action to give users a way to skip text they don't want to read ",
-        "- If the text changes, the automatic typing starts again from the beginning with the new text.",
-        "- Use a condition to check if the typing finished.",
-        "- Use a condition to check if a new text character was added. This is useful to trigger audio effects.",
-        "- Use the \"CurrentCharacter\" expression to know when a specific character was displayed.",
-        "",
-        "The top-down RPG example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://top-down-rpg))."
-      ],
-      "origin": {
-        "identifier": "AutoTyping",
-        "name": "gdevelop-extension-store"
-      },
-      "tags": [
-        "text",
-        "bbtext",
-        "dialogue",
-        "visual novel",
-        "autotyping",
-        "bitmap"
-      ],
-      "authorIds": [
-        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92",
-        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
-      ],
-      "dependencies": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [
-        {
-          "description": "Animate text to simulate it being written one character at at time (a \"typewriter\" effect).",
-          "fullName": "Auto typing text",
-          "name": "Text_AutoTyping",
-          "objectType": "TextObject::Text",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onCreated",
-              "sentence": "",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Initialize object",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.txt_buffer",
-                            "=",
-                            "Object.String()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AutoTyping::Text_AutoTyping::StartAtBeginning"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPostEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Reset trigger",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AutoTyping::Text_AutoTyping::SetPropertyCharacterJustAdded"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "no"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Update text based on timer",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.write_index",
-                            "<=",
-                            "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "SubStr(Object.VariableString(__AutoTyping.txt_buffer), 0, Object.Variable(__AutoTyping.write_index))"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"__AutoTyping.WriteTimer\"",
-                                "Object.Behavior::PropertyInterval()"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"__AutoTyping.WriteTimer\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Object",
-                                "__AutoTyping.write_index",
-                                "+",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AutoTyping::Text_AutoTyping::SetPropertyCharacterJustAdded"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AutoTyping::Text_AutoTyping::SetPropertyCurrentCharacter"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "StrAt(Object.VariableString(__AutoTyping.txt_buffer), Object.Variable(__AutoTyping.write_index))"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.write_index",
-                            ">",
-                            "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "RemoveTimer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"__AutoTyping.WriteTimer\""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "Object",
-                                "!=",
-                                "Object.VariableString(__AutoTyping.txt_buffer)"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Object",
-                                "__AutoTyping.write_index",
-                                "=",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjetTxt"
-                              },
-                              "parameters": [
-                                "Object",
-                                "__AutoTyping.txt_buffer",
-                                "=",
-                                "Object.String()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "Object",
-                                "=",
-                                "\"\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"__AutoTyping.WriteTimer\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Execute actions when the auto typing text ends.",
-              "fullName": "Auto typing finished",
-              "functionType": "Condition",
-              "name": "TypingFinished",
-              "sentence": "When _PARAM0_ finished auto typing",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "__AutoTyping.write_index",
-                        ">=",
-                        "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Detect if the auto typing is on pause.",
-              "fullName": "Typing on pause",
-              "functionType": "Condition",
-              "name": "TypingPause",
-              "sentence": "_PARAM0_ is on pause",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectTimerPaused"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__AutoTyping.WriteTimer\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Detect when a new text character is displayed. Useful for triggering sound effects.",
-              "fullName": "New text character was just displayed",
-              "functionType": "Condition",
-              "name": "IsCharacterJustAdded",
-              "sentence": "Text character was just displayed on _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AutoTyping::Text_AutoTyping::PropertyCharacterJustAdded"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Pause animation auto typing.",
-              "fullName": "Pause auto typing",
-              "functionType": "Action",
-              "name": "Pause",
-              "sentence": "Pause auto typing of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PauseObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__AutoTyping.WriteTimer\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Resume auto typing after pause.",
-              "fullName": "Resume after pause",
-              "functionType": "Action",
-              "name": "Resume",
-              "sentence": "Resume auto typing of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "UnPauseObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__AutoTyping.WriteTimer\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Skip to the end of the text.",
-              "fullName": "Skip to the end of the text",
-              "functionType": "Action",
-              "name": "SkipToEnd",
-              "sentence": "Skip to the end of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "__AutoTyping.write_index",
-                        "=",
-                        "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Jump to a specific position in the text. Positions start at \"0\" and increase by one for every character.",
-              "fullName": "Jump to a specific position in the text",
-              "functionType": "Action",
-              "name": "JumpToPosition",
-              "sentence": "Jump to position _PARAM2_ in the text _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "__AutoTyping.write_index",
-                        "=",
-                        "GetArgumentAsNumber(\"CharacterIndex\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Character position",
-                  "name": "CharacterIndex",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Start at the beginning of text.",
-              "fullName": "Start at the beginning of the text",
-              "functionType": "Action",
-              "name": "StartAtBeginning",
-              "sentence": "Start at the beginning of _PARAM0_",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Start at beginning",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.write_index",
-                            "=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "\"\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"__AutoTyping.WriteTimer\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Change the time between characters being typed. ",
-              "fullName": "Time between characters",
-              "functionType": "Action",
-              "name": "ChangeInterval",
-              "sentence": "Change the interval between characters of _PARAM0_ to _PARAM2_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AutoTyping::Text_AutoTyping::SetPropertyInterval"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"interval\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Interval time (in seconds)",
-                  "name": "interval",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Return the text character that was last displayed.",
-              "fullName": "Current text character",
-              "functionType": "StringExpression",
-              "name": "CurrentCharacter",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyCurrentCharacter()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "string"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Return the index of the text character that was last displayed.",
-              "fullName": "Index of current text character",
-              "functionType": "Expression",
-              "name": "CurrentCharacterIndex",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Variable(__AutoTyping.write_index)"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TextObject::Text",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "0.05",
-              "type": "Number",
-              "label": "Interval between characters in seconds.",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "Interval"
-            },
-            {
-              "value": "",
-              "type": "Boolean",
-              "label": "Detect if a new text character was just displayed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "CharacterJustAdded"
-            },
-            {
-              "value": "",
-              "type": "String",
-              "label": "Text character that was most recently displayed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "CurrentCharacter"
-            }
-          ],
-          "sharedPropertyDescriptors": []
-        },
-        {
-          "description": "Animate text to simulate it being written one character at at time (a \"typewriter\" effect).",
-          "fullName": "Auto typing text",
-          "name": "BitmapText_AutoTyping",
-          "objectType": "BitmapText::BitmapTextObject",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onCreated",
-              "sentence": "",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Initialize object",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.txt_buffer",
-                            "=",
-                            "Object.Text()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPostEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Reset trigger",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AutoTyping::BitmapText_AutoTyping::SetPropertyCharacterJustAdded"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Update text based on timer",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.write_index",
-                            "<=",
-                            "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "BitmapText::BitmapTextObject::SetText"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "SubStr(Object.VariableString(__AutoTyping.txt_buffer), 0, Object.Variable(__AutoTyping.write_index))"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"__AutoTyping.WriteTimer\"",
-                                "Object.Behavior::PropertyInterval()"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"__AutoTyping.WriteTimer\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Object",
-                                "__AutoTyping.write_index",
-                                "+",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AutoTyping::BitmapText_AutoTyping::SetPropertyCharacterJustAdded"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AutoTyping::BitmapText_AutoTyping::SetPropertyCurrentCharacter"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "StrAt(Object.VariableString(__AutoTyping.txt_buffer), Object.Variable(__AutoTyping.write_index))"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.write_index",
-                            ">",
-                            "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "RemoveTimer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"__AutoTyping.WriteTimer\""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BitmapText::BitmapTextObject::Text"
-                              },
-                              "parameters": [
-                                "Object",
-                                "!=",
-                                "Object.VariableString(__AutoTyping.txt_buffer)"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Object",
-                                "__AutoTyping.write_index",
-                                "=",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjetTxt"
-                              },
-                              "parameters": [
-                                "Object",
-                                "__AutoTyping.txt_buffer",
-                                "=",
-                                "Object.Text()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BitmapText::BitmapTextObject::SetText"
-                              },
-                              "parameters": [
-                                "Object",
-                                "=",
-                                "\"\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"__AutoTyping.WriteTimer\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Execute actions when the auto typing text ends.",
-              "fullName": "Auto typing finished",
-              "functionType": "Condition",
-              "name": "TypingFinished",
-              "sentence": "When _PARAM0_ finished auto typing",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "__AutoTyping.write_index",
-                        ">=",
-                        "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Detect if the auto typing is on pause.",
-              "fullName": "Typing on pause",
-              "functionType": "Condition",
-              "name": "TypingPause",
-              "sentence": "_PARAM0_ is on pause",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectTimerPaused"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__AutoTyping.WriteTimer\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Detect when a new text character is displayed. Useful for triggering sound effects.",
-              "fullName": "New text character was just displayed",
-              "functionType": "Condition",
-              "name": "IsCharacterJustAdded",
-              "sentence": "Text character was just displayed on _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AutoTyping::BitmapText_AutoTyping::PropertyCharacterJustAdded"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Pause animation auto typing.",
-              "fullName": "Pause auto typing",
-              "functionType": "Action",
-              "name": "Pause",
-              "sentence": "Pause auto typing of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PauseObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__AutoTyping.WriteTimer\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Resume auto typing after pause.",
-              "fullName": "Resume after pause",
-              "functionType": "Action",
-              "name": "Resume",
-              "sentence": "Resume auto typing of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "UnPauseObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__AutoTyping.WriteTimer\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Skip to the end of the text.",
-              "fullName": "Skip to the end of the text",
-              "functionType": "Action",
-              "name": "SkipToEnd",
-              "sentence": "Skip to the end of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "__AutoTyping.write_index",
-                        "=",
-                        "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Jump to a specific position in the text. Positions start at \"0\" and increase by one for every character.",
-              "fullName": "Jump to a specific position in the text",
-              "functionType": "Action",
-              "name": "JumpToPosition",
-              "sentence": "Jump to position _PARAM2_ in the text _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "__AutoTyping.write_index",
-                        "=",
-                        "GetArgumentAsNumber(\"CharacterIndex\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Character position",
-                  "name": "CharacterIndex",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Start at the beginning of text.",
-              "fullName": "Start at the beginning of the text",
-              "functionType": "Action",
-              "name": "StartAtBeginning",
-              "sentence": "Start at the beginning of _PARAM0_",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Start at beginning",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.write_index",
-                            "=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BitmapText::BitmapTextObject::SetText"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "\"\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"__AutoTyping.WriteTimer\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Change the time between characters being typed. ",
-              "fullName": "Time between characters",
-              "functionType": "Action",
-              "name": "ChangeInterval",
-              "sentence": "Set the interval between characters of _PARAM0_ to _PARAM2_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AutoTyping::BitmapText_AutoTyping::SetPropertyInterval"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"interval\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Interval time (in seconds)",
-                  "name": "interval",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Return the text character that was last displayed.",
-              "fullName": "Current character",
-              "functionType": "StringExpression",
-              "name": "CurrentCharacter",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyCurrentCharacter()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "string"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Return the index of the text character that was last displayed.",
-              "fullName": "Index of current text character",
-              "functionType": "Expression",
-              "name": "CurrentCharacterIndex",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Variable(__AutoTyping.write_index)"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BitmapText::BitmapTextObject",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BitmapText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "0.05",
-              "type": "Number",
-              "label": "Interval between characters in seconds.",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "Interval"
-            },
-            {
-              "value": "",
-              "type": "Boolean",
-              "label": "Detect if a new text character was just displayed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "CharacterJustAdded"
-            },
-            {
-              "value": "",
-              "type": "String",
-              "label": "Text character that was most recently displayed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "CurrentCharacter"
-            }
-          ],
-          "sharedPropertyDescriptors": []
-        },
-        {
-          "description": "Animate text to simulate it being written one character at at time (a \"typewriter\" effect).",
-          "fullName": "Auto typing text",
-          "name": "BBText_AutoTyping",
-          "objectType": "BBText::BBText",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onCreated",
-              "sentence": "",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Initialize object",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.txt_buffer",
-                            "=",
-                            "Object.GetBBText()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AutoTyping::BBText_AutoTyping::StartAtBeginning"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPostEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Reset trigger",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AutoTyping::BBText_AutoTyping::SetPropertyCharacterJustAdded"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Update text based on timer",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.write_index",
-                            "<=",
-                            "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "BBText::SetBBText"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "SubStr(Object.VariableString(__AutoTyping.txt_buffer), 0, Object.Variable(__AutoTyping.write_index))"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"__AutoTyping.WriteTimer\"",
-                                "Object.Behavior::PropertyInterval()"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"__AutoTyping.WriteTimer\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Object",
-                                "__AutoTyping.write_index",
-                                "+",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AutoTyping::BBText_AutoTyping::SetPropertyCharacterJustAdded"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AutoTyping::BBText_AutoTyping::SetPropertyCurrentCharacter"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "StrAt(Object.VariableString(__AutoTyping.txt_buffer), Object.Variable(__AutoTyping.write_index))"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.write_index",
-                            ">",
-                            "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "RemoveTimer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"__AutoTyping.WriteTimer\""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BBText::IsBBText"
-                              },
-                              "parameters": [
-                                "Object",
-                                "!=",
-                                "Object.VariableString(__AutoTyping.txt_buffer)"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Object",
-                                "__AutoTyping.write_index",
-                                "=",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjetTxt"
-                              },
-                              "parameters": [
-                                "Object",
-                                "__AutoTyping.txt_buffer",
-                                "=",
-                                "Object.GetBBText()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BBText::SetBBText"
-                              },
-                              "parameters": [
-                                "Object",
-                                "=",
-                                "\"\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"__AutoTyping.WriteTimer\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Execute actions when the auto typing text ends.",
-              "fullName": "Auto typing finished",
-              "functionType": "Condition",
-              "name": "TypingFinished",
-              "sentence": "When _PARAM0_ finished auto typing",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "__AutoTyping.write_index",
-                        ">=",
-                        "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Detect if the auto typing is on pause.",
-              "fullName": "Typing on pause",
-              "functionType": "Condition",
-              "name": "TypingPause",
-              "sentence": "_PARAM0_ is on pause",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectTimerPaused"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__AutoTyping.WriteTimer\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Detect when a new text character is displayed. Useful for triggering sound effects.",
-              "fullName": "New text character was just displayed",
-              "functionType": "Condition",
-              "name": "IsCharacterJustAdded",
-              "sentence": "Text character was just displayed on _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AutoTyping::BBText_AutoTyping::PropertyCharacterJustAdded"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Pause animation auto typing.",
-              "fullName": "Pause auto typing",
-              "functionType": "Action",
-              "name": "Pause",
-              "sentence": "Pause auto typing of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PauseObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__AutoTyping.WriteTimer\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Resume auto typing after pause.",
-              "fullName": "Resume after pause",
-              "functionType": "Action",
-              "name": "Resume",
-              "sentence": "Resume auto typing of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "UnPauseObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__AutoTyping.WriteTimer\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Skip to the end of the text.",
-              "fullName": "Skip to the end of the text",
-              "functionType": "Action",
-              "name": "SkipToEnd",
-              "sentence": "Skip to the end of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "__AutoTyping.write_index",
-                        "=",
-                        "StrLength(Object.VariableString(__AutoTyping.txt_buffer))"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Jump to a specific position in the text. Positions start at \"0\" and increase by one for every character.",
-              "fullName": "Jump to a specific position in the text",
-              "functionType": "Action",
-              "name": "JumpToPosition",
-              "sentence": "Jump to position _PARAM2_ in the text _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "__AutoTyping.write_index",
-                        "=",
-                        "GetArgumentAsNumber(\"CharacterIndex\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Character position",
-                  "name": "CharacterIndex",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Start at the beginning of text.",
-              "fullName": "Start at the beginning of the text",
-              "functionType": "Action",
-              "name": "StartAtBeginning",
-              "sentence": "Start at the beginning of _PARAM0_",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Start at beginning",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "__AutoTyping.write_index",
-                            "=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BBText::SetBBText"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "\"\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"__AutoTyping.WriteTimer\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Change the time between characters being typed. ",
-              "fullName": "Time between characters",
-              "functionType": "Action",
-              "name": "ChangeInterval",
-              "sentence": "Set the interval between characters of _PARAM0_ to _PARAM2_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AutoTyping::BBText_AutoTyping::SetPropertyInterval"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"interval\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Interval time (in seconds)",
-                  "name": "interval",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Return the text character that was last displayed.",
-              "fullName": "Current character",
-              "functionType": "StringExpression",
-              "name": "CurrentCharacter",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyCurrentCharacter()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "string"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Return the index of the text character that was last displayed.",
-              "fullName": "Index of current text character",
-              "functionType": "Expression",
-              "name": "CurrentCharacterIndex",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Variable(__AutoTyping.write_index)"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BBText::BBText",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "0.05",
-              "type": "Number",
-              "label": "Interval between characters in seconds.",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "Interval"
-            },
-            {
-              "value": "",
-              "type": "Boolean",
-              "label": "Detect if a new text character was just displayed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "CharacterJustAdded"
-            },
-            {
-              "value": "",
-              "type": "String",
-              "label": "Text character that was most recently displayed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "CurrentCharacter"
-            }
-          ],
-          "sharedPropertyDescriptors": []
-        }
-      ],
-      "eventsBasedObjects": []
-    },
     {
       "author": "",
       "category": "User interface",
