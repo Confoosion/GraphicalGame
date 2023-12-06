@@ -1563,6 +1563,60 @@
         "name": "BoxSprite_4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cart_A2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Cart_A2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cart_B2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Cart_B2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cart_C2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Cart_C2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BoxSprite_5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BoxSprite_1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left13",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1788,9 +1842,9 @@
     },
     {
       "folded": true,
-      "name": "RobotHelpers",
-      "type": "number",
-      "value": 0
+      "name": "RobotHelpersBool",
+      "type": "boolean",
+      "value": true
     },
     {
       "folded": true,
@@ -3026,7 +3080,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3553434558817032,
+        "zoomFactor": 0.379712100194799,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3638,8 +3692,8 @@
           "name": "DurabilityPercentage",
           "persistentUuid": "9a7a9ede-8c66-42c6-8060-73f9efb32f51",
           "width": 0,
-          "x": 667,
-          "y": 827,
+          "x": 805,
+          "y": 825,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -3678,21 +3732,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "RobotHelper2",
-          "persistentUuid": "83e0b556-5533-4eec-8b7b-a32c0a42c12e",
-          "width": 0,
-          "x": 409,
-          "y": 228,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 1080,
@@ -3719,67 +3758,6 @@
           "x": 114,
           "y": 17,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 225,
-          "layer": "",
-          "name": "HelperTV2",
-          "persistentUuid": "10d358e9-38af-4b74-b60f-39187acfcd0c",
-          "width": 350,
-          "x": 486,
-          "y": 15,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "DebugText",
-          "persistentUuid": "c1951112-b6f5-44cf-bbf9-bec1c2751937",
-          "width": 0,
-          "x": 490,
-          "y": 999,
-          "zOrder": 39,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Inspect",
-          "name": "DebugText2",
-          "persistentUuid": "fa216ae8-4c0e-4e5c-b18f-ec6991640f2e",
-          "width": 0,
-          "x": 668,
-          "y": 257,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Inspect",
-          "name": "DebugText3",
-          "persistentUuid": "895a1f3b-7b09-41a7-bb9d-ad147e53dc91",
-          "width": 0,
-          "x": 1167,
-          "y": 262,
-          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3858,6 +3836,86 @@
           "x": 972,
           "y": 383,
           "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 7,
+          "customSize": true,
+          "depth": 1,
+          "height": 65,
+          "layer": "",
+          "name": "SignAText",
+          "persistentUuid": "7dc1009a-4391-4c31-b529-c7411c6b6cb9",
+          "width": 113,
+          "x": 1351,
+          "y": 97,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 7,
+          "customSize": true,
+          "depth": 0,
+          "height": 65,
+          "layer": "",
+          "name": "SignBText",
+          "persistentUuid": "d0bd86f4-ea7d-4671-b873-1d9e54f09eaa",
+          "width": 113,
+          "x": 1349,
+          "y": 488,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 7,
+          "customSize": true,
+          "depth": 0,
+          "height": 65,
+          "layer": "",
+          "name": "SignCText",
+          "persistentUuid": "71fb56c3-3bb5-4afb-b2bc-137fdd780fae",
+          "width": 113,
+          "x": 1351,
+          "y": 862,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 85,
+          "layer": "Background",
+          "name": "Floor",
+          "persistentUuid": "d9040386-979d-4ee0-931d-0f89f0e45a40",
+          "width": 2042,
+          "x": -61,
+          "y": 1067,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "layer": "",
+          "name": "HelperTVText",
+          "persistentUuid": "f34fd300-0035-4e05-9aea-4bedc09fd8b3",
+          "width": 306,
+          "x": 135,
+          "y": 102,
+          "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4216,17 +4274,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "2a16fd749b7fb56b85e1152a4f7d7d5de507cef1d8888320a770ea0f63a2edd2",
-          "height": 128,
-          "name": "YellowBackground",
-          "texture": "tiled_Yellow background.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -4950,6 +4997,24 @@
             {
               "folded": true,
               "name": "isDragged",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "isPickedUp",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "wasScanned1",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "wasScanned2",
               "type": "boolean",
               "value": false
             },
@@ -9776,123 +9841,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "RobotHelper2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Occupied",
-              "type": "boolean",
-              "value": false
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "RobotIdle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Robot_0(final)",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 59,
-                            "y": 30
-                          },
-                          {
-                            "x": 393,
-                            "y": 30
-                          },
-                          {
-                            "x": 393,
-                            "y": 446
-                          },
-                          {
-                            "x": 59,
-                            "y": 446
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "RobotPickUp",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Robot_1(final)2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 59,
-                            "y": 30
-                          },
-                          {
-                            "x": 393,
-                            "y": 30
-                          },
-                          {
-                            "x": 393,
-                            "y": 446
-                          },
-                          {
-                            "x": 59,
-                            "y": 446
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "MainBackground",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -10015,130 +9963,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "HelperTV2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite19",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 100,
-                            "y": 0
-                          },
-                          {
-                            "x": 100,
-                            "y": 50
-                          },
-                          {
-                            "x": 0,
-                            "y": 50
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "DebugText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Test",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 50,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "DebugText2",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Test",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 50,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "DebugText3",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Test",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 50,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "WetFloorSign",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -10237,6 +10061,151 @@
             "b": 32,
             "g": 221,
             "r": 41
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SignAText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "FloorSignA",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SignBText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "FloorSignB",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SignCText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "FloorSignC",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Floor",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite20",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "HelperTVText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         }
       ],
@@ -10351,24 +10320,35 @@
             ]
           },
           {
-            "folderName": "RobotHelpers",
+            "folderName": "RobotHelper",
             "children": [
               {
                 "objectName": "HelperTV"
               },
               {
+                "objectName": "HelperTVText"
+              },
+              {
                 "objectName": "RobotHelper"
-              },
-              {
-                "objectName": "HelperTV2"
-              },
-              {
-                "objectName": "RobotHelper2"
               }
             ]
           },
           {
-            "objectName": "WetFloorSign"
+            "folderName": "WetFloorSigns",
+            "children": [
+              {
+                "objectName": "WetFloorSign"
+              },
+              {
+                "objectName": "SignAText"
+              },
+              {
+                "objectName": "SignBText"
+              },
+              {
+                "objectName": "SignCText"
+              }
+            ]
           },
           {
             "objectName": "Box"
@@ -10377,7 +10357,7 @@
             "objectName": "MainBackground"
           },
           {
-            "objectName": "YellowBackground"
+            "objectName": "Floor"
           },
           {
             "objectName": "DayText"
@@ -10408,15 +10388,6 @@
           },
           {
             "objectName": "DurabilityPercentage"
-          },
-          {
-            "objectName": "DebugText"
-          },
-          {
-            "objectName": "DebugText2"
-          },
-          {
-            "objectName": "DebugText3"
           }
         ]
       },
@@ -10600,12 +10571,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarGlobal"
+                        "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "RobotHelpers",
-                        "=",
-                        "0"
+                        "RobotHelpersBool",
+                        "False"
                       ]
                     }
                   ],
@@ -10625,22 +10595,6 @@
                       "parameters": [
                         "HelperTV"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "RobotHelper2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "HelperTV2"
-                      ]
                     }
                   ]
                 },
@@ -10649,30 +10603,23 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarGlobal"
+                        "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "RobotHelpers",
-                        "=",
-                        "1"
+                        "RobotHelpersBool",
+                        "True"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "RobotHelper2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "HelperTV2"
+                        "Rent",
+                        "=",
+                        "35"
                       ]
                     }
                   ]
@@ -10697,6 +10644,30 @@
                       },
                       "parameters": [
                         "WetFloorSign"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "SignAText"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "SignBText"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "SignCText"
                       ]
                     }
                   ]
@@ -10774,17 +10745,6 @@
                       "parameters": [
                         "Cart",
                         "LookingFor[SpecificationRandomizer]"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "DebugText",
-                        "Text",
-                        "=",
-                        "Cart.LookingFor[0] +\nCart.LookingFor[1] +\nCart.LookingFor[2] +\nCart.LookingFor[3] +\nCart.LookingFor[4]"
                       ]
                     }
                   ],
@@ -10887,6 +10847,61 @@
                                 "Cart_C_Text",
                                 "=",
                                 "\"Cart C:\n\n- Barcode 3\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "WetFloorSignsBool",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignAText",
+                                "Text",
+                                "=",
+                                "\"Barcode 2\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignBText",
+                                "Text",
+                                "=",
+                                "\"Barcode 1\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignCText",
+                                "Text",
+                                "=",
+                                "\"Barcode 3\""
                               ]
                             }
                           ]
@@ -10994,6 +11009,61 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "WetFloorSignsBool",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignAText",
+                                "Text",
+                                "=",
+                                "\"Box ID: 4976\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignBText",
+                                "Text",
+                                "=",
+                                "\"Box ID: 3981\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignCText",
+                                "Text",
+                                "=",
+                                "\"Box ID: 1325\""
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -11095,6 +11165,61 @@
                                 "Cart_C_Text",
                                 "=",
                                 "\"Cart C:\n\n- Color: Red\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "WetFloorSignsBool",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignAText",
+                                "Text",
+                                "=",
+                                "\"Blue\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignBText",
+                                "Text",
+                                "=",
+                                "\"Green\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignCText",
+                                "Text",
+                                "=",
+                                "\"Red\""
                               ]
                             }
                           ]
@@ -11202,6 +11327,61 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "WetFloorSignsBool",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignAText",
+                                "Text",
+                                "=",
+                                "\"Triangle\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignBText",
+                                "Text",
+                                "=",
+                                "\"Square\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignCText",
+                                "Text",
+                                "=",
+                                "\"Circle\""
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -11303,6 +11483,61 @@
                                 "Cart_C_Text",
                                 "=",
                                 "\"Cart C:\n\n- Tape Orientation: V\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "WetFloorSignsBool",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignAText",
+                                "Text",
+                                "=",
+                                "\"X-Shaped Tape\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignBText",
+                                "Text",
+                                "=",
+                                "\"I-Shaped Tape\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SignCText",
+                                "Text",
+                                "=",
+                                "\"V-Shaped Tape\""
                               ]
                             }
                           ]
@@ -12408,6 +12643,16 @@
                     },
                     {
                       "type": {
+                        "inverted": true,
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Inspect\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
@@ -12454,17 +12699,6 @@
                         "Text",
                         "=",
                         "\"Durability: \" + ToString(Box.Variable(Durability)) + \"%\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "DebugText3",
-                        "Text",
-                        "=",
-                        "Box.LookingFor[0] +\nBox.LookingFor[1] + Box.LookingFor[2] +\nBox.LookingFor[3] +\nBox.LookingFor[4]"
                       ]
                     },
                     {
@@ -13322,19 +13556,7 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                          },
-                          "parameters": [
-                            "DebugText2",
-                            "Text",
-                            "=",
-                            "ToString(Box.Variable(Specifications.Barcode)) + \"\n\" + ToString(Box.Variable(Specifications.BoxID)) + \"\n\" + Box.VariableString(Specifications.Color) + \"\n\" + Box.VariableString(Specifications.Shape) + \"\n\" + Box.VariableString(Specifications.Tape)"
-                          ]
-                        }
-                      ]
+                      "actions": []
                     }
                   ]
                 },
@@ -15196,7 +15418,6 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
-              "folded": true,
               "name": "Box Gravity",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -15239,6 +15460,29 @@
                         "",
                         "yes"
                       ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Floor",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Box",
+                        "isPickedUp",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -15263,7 +15507,6 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
-              "folded": true,
               "name": "Conveyor Belt",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -15280,6 +15523,16 @@
                         "ConveyorBelt",
                         "",
                         "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Box",
+                        "isPickedUp",
                         ""
                       ]
                     }
@@ -15323,6 +15576,291 @@
                         "Box",
                         "Box",
                         ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 224,
+              "colorG": 16,
+              "colorR": 189,
+              "creationTime": 0,
+              "name": "Robot Helpers",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Box",
+                        "RobotHelper",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "RobotHelper"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "DraggableBehavior::Dragged"
+                      },
+                      "parameters": [
+                        "Box",
+                        "Draggable"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Box",
+                        "wasScanned1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Box",
+                        "isPickedUp",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Box",
+                        "=",
+                        "200",
+                        "=",
+                        "300"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "RobotHelper",
+                        "Animation",
+                        "=",
+                        "\"RobotPickUp\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.5"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Box",
+                            "LookingFor[0]",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "HelperTVText",
+                            "Text",
+                            "=",
+                            "\"Barcode: \" + ToString(Box.Variable(Specifications.Barcode))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Box",
+                            "LookingFor[1]",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "HelperTVText",
+                            "Text",
+                            "=",
+                            "\"Box ID: \" + ToString(Box.Variable(Specifications.BoxID))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Box",
+                            "LookingFor[2]",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "HelperTVText",
+                            "Text",
+                            "=",
+                            "\"Color: \" + Box.VariableString(Specifications.Color)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Box",
+                            "LookingFor[3]",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "HelperTVText",
+                            "Text",
+                            "=",
+                            "\"Shape: \" + Box.VariableString(Specifications.Shape)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Box",
+                            "LookingFor[4]",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "HelperTVText",
+                            "Text",
+                            "=",
+                            "\"Tape: \" + Box.VariableString(Specifications.Tape)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Box",
+                            "isPickedUp",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "RobotHelper",
+                            "Animation",
+                            "=",
+                            "\"RobotIdle\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Box",
+                            "wasScanned1",
+                            "True"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -18487,6 +19025,33 @@
                             "Text",
                             "=",
                             "\"-$\" + ToString(Rent)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "MONEY",
+                            "<",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"LoseScene\"",
+                            ""
                           ]
                         }
                       ]
@@ -25186,12 +25751,11 @@
                 },
                 {
                   "type": {
-                    "value": "VarGlobal"
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "RobotHelpers",
-                    "<",
-                    "2"
+                    "RobotHelpersBool",
+                    "<"
                   ]
                 }
               ],
@@ -25244,24 +25808,22 @@
                 },
                 {
                   "type": {
-                    "value": "VarGlobal"
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "RobotHelpers",
-                    "<",
-                    "2"
+                    "RobotHelpersBool",
+                    "<"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarGlobal"
+                    "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "RobotHelpers",
-                    "+",
-                    "1"
+                    "RobotHelpersBool",
+                    "True"
                   ]
                 },
                 {
@@ -25789,6 +26351,16 @@
                     "",
                     "100",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"WinScene\"",
+                    ""
                   ]
                 }
               ]
@@ -25863,40 +26435,6 @@
                     "Animation",
                     "=",
                     "\"Conveyor_Belt_Tier3\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "RobotHelpers",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "RobotHelperProductLabel",
-                    "Text",
-                    "=",
-                    "\"ANOTHER ROBOT HELPER!!\""
                   ]
                 }
               ]
@@ -25999,12 +26537,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarGlobal"
+                        "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
                         "RobotHelpers",
-                        "=",
-                        "2"
+                        "True"
                       ]
                     }
                   ],
@@ -26377,7 +26914,7 @@
                     "ProductDescription",
                     "Text",
                     "=",
-                    "\"Buying this gives you a Robot Helper who will identify 1 Specification when they pick a Package up!\nRobot Helpers increase your rent by $15.\nYou can buy a total of 2 Robot Helpers.\""
+                    "\"Buying this gives you a Robot Helper who will identify 1 Specification when they pick a Package up!\nThe Robot Helper increases your rent by $15.\""
                   ]
                 }
               ]
@@ -27246,15 +27783,15 @@
       ]
     },
     {
-      "b": 155,
+      "b": 212,
       "disableInputWhenNotFocused": true,
       "mangledName": "TutorialGame",
       "name": "TutorialGame",
-      "r": 155,
+      "r": 212,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 155,
+      "v": 212,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -27265,28 +27802,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3553434558817004,
+        "zoomFactor": 0.355343455881701,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 5,
-          "height": 5138,
-          "layer": "Background",
-          "name": "YellowBackground",
-          "persistentUuid": "c34bf40b-9d7b-4264-adac-37512e4e3799",
-          "width": 8759,
-          "x": -3808,
-          "y": -2266,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -27379,30 +27900,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 175,
-          "layer": "",
-          "name": "Conveyor",
-          "persistentUuid": "8883ad3e-ff9f-4265-b967-9246721a36ef",
-          "width": 867,
-          "x": -24,
-          "y": 482,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "name": "InspectButton",
           "persistentUuid": "87852e6a-7848-4ef1-a589-200a128d912e",
           "width": 0,
-          "x": 843,
-          "y": 810,
+          "x": 809,
+          "y": 687,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -27416,24 +27921,9 @@
           "name": "InspectButton_Text",
           "persistentUuid": "dac52169-07e2-4060-b965-1bb9787da77c",
           "width": 0,
-          "x": 859,
-          "y": 854,
+          "x": 826,
+          "y": 728,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "InspectSpot",
-          "persistentUuid": "0c1ff004-edc7-4659-b9ef-6ea557a02d8b",
-          "width": 0,
-          "x": 828,
-          "y": 453,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27455,29 +27945,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "UI",
-          "name": "BoxesLeft_Text",
-          "persistentUuid": "5f9babd4-a3c7-4933-86be-f701ca8966bc",
-          "width": 0,
-          "x": 1457,
-          "y": 60,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 400,
           "layer": "",
           "name": "Cart",
           "persistentUuid": "e69dc667-564f-4f60-b85f-2d7501e08e7e",
-          "width": 0,
-          "x": 1544,
-          "y": 138,
+          "width": 400,
+          "x": 1500,
+          "y": -40,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -27490,14 +27966,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 400,
           "layer": "",
           "name": "Cart",
           "persistentUuid": "7b752670-6389-40c4-bb15-8540a76d0c1b",
-          "width": 0,
-          "x": 1544,
-          "y": 413,
+          "width": 400,
+          "x": 1500,
+          "y": 350,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -27510,14 +27987,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 400,
           "layer": "",
           "name": "Cart",
           "persistentUuid": "7af84877-8f29-47e0-a51c-8a6e49996443",
-          "width": 0,
-          "x": 1542,
-          "y": 697,
+          "width": 400,
+          "x": 1500,
+          "y": 740,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -27570,22 +28048,6 @@
           "x": 1439,
           "y": 738,
           "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 178,
-          "layer": "",
-          "name": "InspectSpot",
-          "persistentUuid": "46ace977-4cdf-4bd2-9917-b8cc1f5706be",
-          "width": 17,
-          "x": 937,
-          "y": 659,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27662,8 +28124,8 @@
           "name": "PointArrow",
           "persistentUuid": "797c8c64-00b4-4e95-ad55-67dd1848306c",
           "width": 300,
-          "x": 269,
-          "y": 746,
+          "x": 260,
+          "y": 760,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -27678,15 +28140,15 @@
           "name": "PointArrow2",
           "persistentUuid": "42fb0e7d-652b-4c5a-a464-d3622e474f2e",
           "width": 300,
-          "x": 793,
-          "y": 217,
+          "x": 828,
+          "y": 320,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 180,
+          "angle": 270,
           "customSize": true,
           "depth": 0,
           "height": 150,
@@ -27694,8 +28156,8 @@
           "name": "PointArrow3",
           "persistentUuid": "de3e88f7-fd08-473c-8f29-f55f7eb29dc7",
           "width": 300,
-          "x": 1079,
-          "y": 795,
+          "x": 764,
+          "y": 894,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -27713,97 +28175,6 @@
           "x": 1221,
           "y": 480,
           "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 750,
-          "layer": "EndResults",
-          "name": "EndMenu",
-          "persistentUuid": "74d8278d-6b42-4f35-b22f-088e03311700",
-          "width": 750,
-          "x": 575,
-          "y": 200,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "EndResults",
-          "name": "EndText",
-          "persistentUuid": "44a3c2d9-05a5-4c90-b8df-f3d77873799a",
-          "width": 0,
-          "x": 635,
-          "y": 222,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "EndResults",
-          "name": "BoxDeliveredText",
-          "persistentUuid": "da99f10b-d617-43ff-a26f-2f30e98924b3",
-          "width": 0,
-          "x": 598,
-          "y": 339,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "EndResults",
-          "name": "BoxPayText",
-          "persistentUuid": "13a99cd6-75c9-4e84-97d1-bdd13b8dff15",
-          "width": 0,
-          "x": 598,
-          "y": 421,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "EndResults",
-          "name": "RentText",
-          "persistentUuid": "30290c06-d0ec-461a-bf96-b9976c0c7c97",
-          "width": 0,
-          "x": 600,
-          "y": 533,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "EndResults",
-          "name": "TotalPayText",
-          "persistentUuid": "3bdebeb4-7404-4b97-bef8-852f1da98404",
-          "width": 0,
-          "x": 598,
-          "y": 678,
-          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27835,6 +28206,206 @@
           "x": 72,
           "y": 962,
           "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 400,
+          "layer": "",
+          "name": "ConveyorBelt",
+          "persistentUuid": "56bfc1df-d30a-4d6e-a35f-d25979379dcf",
+          "width": 1000,
+          "x": -122,
+          "y": 428,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "InspectSpot",
+          "persistentUuid": "7016f83b-e950-4e6b-9398-2979e5c9dfda",
+          "width": 0,
+          "x": 699,
+          "y": 550,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1080,
+          "layer": "Background",
+          "name": "MainBackground",
+          "persistentUuid": "4ed83411-a575-44c1-94c4-136c1112ee4c",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 85,
+          "layer": "Background",
+          "name": "Floor",
+          "persistentUuid": "c9ac3715-6043-4a94-81f3-4731f6ce396a",
+          "width": 2042,
+          "x": -61,
+          "y": 1067,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 650,
+          "layer": "Inspect",
+          "name": "InspectBox",
+          "persistentUuid": "384ae798-b046-4eea-8e89-a9f29ab3f5cb",
+          "width": 650,
+          "x": 650,
+          "y": 238,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inspect",
+          "name": "DurabilityPercentage",
+          "persistentUuid": "28490615-0d25-4821-a66a-5d6e048f7af2",
+          "width": 0,
+          "x": 805,
+          "y": 825,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1100,
+          "layer": "EndResults",
+          "name": "EndDayBox",
+          "persistentUuid": "5e0dec3b-99d1-4431-80da-cb4ef31c86a2",
+          "width": 900,
+          "x": 500,
+          "y": -7,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "EndResults",
+          "name": "ShiftEndText",
+          "persistentUuid": "36a73ba3-1eb4-436e-923c-4f1b3a59bc00",
+          "width": 0,
+          "x": 801,
+          "y": 199,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "EndResults",
+          "name": "DayEarningsText",
+          "persistentUuid": "0c4ac848-3ea4-499b-8b1d-eb57ef2070df",
+          "width": 0,
+          "x": 634,
+          "y": 298,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "EndResults",
+          "name": "DayEarningsNumber",
+          "persistentUuid": "aa18ff34-9ee7-4c0d-af09-d9907a49225d",
+          "width": 0,
+          "x": 975,
+          "y": 301,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "EndResults",
+          "name": "RentAmountText",
+          "persistentUuid": "1d3c39ce-e25f-4c60-865d-2fd640d96ce9",
+          "width": 0,
+          "x": 638,
+          "y": 455,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "EndResults",
+          "name": "RentAmountNumber",
+          "persistentUuid": "5cca326d-fff4-46a1-ade8-57591d0670a8",
+          "width": 0,
+          "x": 795,
+          "y": 455,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "EndResults",
+          "name": "TotalGainedText",
+          "persistentUuid": "c5206810-9812-481c-87ba-4b8115d026aa",
+          "width": 0,
+          "x": 694,
+          "y": 815,
+          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28164,17 +28735,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "2a16fd749b7fb56b85e1152a4f7d7d5de507cef1d8888320a770ea0f63a2edd2",
-          "height": 128,
-          "name": "YellowBackground",
-          "texture": "tiled_Yellow background.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -28945,7 +29505,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
+                      "image": "BoxSprite_1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -28961,69 +29521,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 20,
+                            "y": 25
                           },
                           {
-                            "x": 100,
-                            "y": 0
+                            "x": 155,
+                            "y": 25
                           },
                           {
-                            "x": 100,
-                            "y": 100
+                            "x": 155,
+                            "y": 154
                           },
                           {
-                            "x": 0,
-                            "y": 100
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "BoxSprite_2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "BoxSprite_2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 100,
-                            "y": 0
-                          },
-                          {
-                            "x": 100,
-                            "y": 100
-                          },
-                          {
-                            "x": 0,
-                            "y": 100
+                            "x": 20,
+                            "y": 154
                           }
                         ]
                       ]
@@ -29105,17 +29616,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 175,
-          "name": "Conveyor",
-          "texture": "New image2",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 175,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -29317,67 +29817,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "InspectSpot",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 225,
-                            "y": 0
-                          },
-                          {
-                            "x": 225,
-                            "y": 225
-                          },
-                          {
-                            "x": 0,
-                            "y": 225
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "bold": true,
           "italic": false,
@@ -29392,27 +29831,6 @@
           "font": "",
           "textAlignment": "left",
           "characterSize": 75,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "BoxesLeft_Text",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Boxes Remaining: 0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 40,
           "color": {
             "b": 255,
             "g": 255,
@@ -29538,7 +29956,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite9",
+                      "image": "Cart_A2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -29554,20 +29972,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 79
+                            "x": 48,
+                            "y": 56
                           },
                           {
-                            "x": 294,
-                            "y": 79
+                            "x": 477,
+                            "y": 56
                           },
                           {
-                            "x": 294,
-                            "y": 249
+                            "x": 477,
+                            "y": 423
                           },
                           {
-                            "x": 6,
-                            "y": 249
+                            "x": 48,
+                            "y": 423
                           }
                         ]
                       ]
@@ -29587,7 +30005,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Cart_B",
+                      "image": "Cart_B2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -29603,20 +30021,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 79
+                            "x": 48,
+                            "y": 56
                           },
                           {
-                            "x": 294,
-                            "y": 79
+                            "x": 477,
+                            "y": 56
                           },
                           {
-                            "x": 294,
-                            "y": 249
+                            "x": 477,
+                            "y": 423
                           },
                           {
-                            "x": 6,
-                            "y": 249
+                            "x": 48,
+                            "y": 423
                           }
                         ]
                       ]
@@ -29636,7 +30054,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Cart_C",
+                      "image": "Cart_C2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -29652,20 +30070,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 79
+                            "x": 48,
+                            "y": 56
                           },
                           {
-                            "x": 294,
-                            "y": 79
+                            "x": 477,
+                            "y": 56
                           },
                           {
-                            "x": 294,
-                            "y": 249
+                            "x": 477,
+                            "y": 423
                           },
                           {
-                            "x": 6,
-                            "y": 249
+                            "x": 48,
+                            "y": 423
                           }
                         ]
                       ]
@@ -29762,7 +30180,7 @@
               "folded": true,
               "name": "Cart_C_Text",
               "type": "string",
-              "value": "Cart C:\n\nRED SQUARE"
+              "value": "Cart C:\n\n- RED SQUARE"
             }
           ],
           "effects": [],
@@ -30035,7 +30453,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Left2",
+                      "image": "Left13",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30680,172 +31098,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "EndMenu",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite17",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 400,
-                            "y": 0
-                          },
-                          {
-                            "x": 400,
-                            "y": 500
-                          },
-                          {
-                            "x": 0,
-                            "y": 500
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "EndText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "YOUR SHIFT IS OVER",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 60,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "BoxDeliveredText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Packages Delivered: 2",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 50,
-          "color": {
-            "b": 20,
-            "g": 233,
-            "r": 15
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "BoxPayText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Money from Packages: $25",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 50,
-          "color": {
-            "b": 20,
-            "g": 233,
-            "r": 15
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "RentText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Rent: $20",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 50,
-          "color": {
-            "b": 31,
-            "g": 0,
-            "r": 255
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "TotalPayText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Total Pay: $5",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 50,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "ExitTutorialButton",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -31041,6 +31293,725 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "ConveyorBelt",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Conveyor_Belt_Tier1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 500,
+                            "y": 89.5
+                          },
+                          {
+                            "x": 445,
+                            "y": 131.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 73.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 500,
+                            "y": 89.5
+                          },
+                          {
+                            "x": 445,
+                            "y": 131.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 73.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Conveyor_Belt_Tier2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier2(0)",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 500,
+                            "y": 89.5
+                          },
+                          {
+                            "x": 445,
+                            "y": 131.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 73.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier2(0)2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 500,
+                            "y": 89.5
+                          },
+                          {
+                            "x": 445,
+                            "y": 131.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 73.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Conveyor_Belt_Tier3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier3(0)",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 500,
+                            "y": 89.5
+                          },
+                          {
+                            "x": 445,
+                            "y": 131.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 73.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Conveyor_Belt_Tier3(0)2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 500,
+                            "y": 89.5
+                          },
+                          {
+                            "x": 445,
+                            "y": 131.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 73.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "InspectSpot",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite23",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 139,
+                            "y": 42
+                          },
+                          {
+                            "x": 445.5,
+                            "y": 44.5
+                          },
+                          {
+                            "x": 374,
+                            "y": 122.5
+                          },
+                          {
+                            "x": 47.5,
+                            "y": 115.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MainBackground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Backgroundfinal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Backgroundfinal",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 500,
+                            "y": 0
+                          },
+                          {
+                            "x": 500,
+                            "y": 281
+                          },
+                          {
+                            "x": 0,
+                            "y": 281
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Floor",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite20",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "InspectBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite22",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "DurabilityPercentage",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Durability: 100%",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "EndDayBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Box",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Box",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 350,
+                            "y": 4
+                          },
+                          {
+                            "x": 350,
+                            "y": 490
+                          },
+                          {
+                            "x": 27,
+                            "y": 490
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "ShiftEndText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Shift Ended",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "DayEarningsText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You earned:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "DayEarningsNumber",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "+$50",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 32,
+            "g": 221,
+            "r": 41
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RentAmountText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Rent:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RentAmountNumber",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "-$20",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 1,
+            "g": 1,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TotalGainedText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Today's Total: $30",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -31110,13 +32081,36 @@
             ]
           },
           {
+            "folderName": "EndElements",
+            "children": [
+              {
+                "objectName": "EndDayBox"
+              },
+              {
+                "objectName": "ShiftEndText"
+              },
+              {
+                "objectName": "DayEarningsText"
+              },
+              {
+                "objectName": "DayEarningsNumber"
+              },
+              {
+                "objectName": "RentAmountText"
+              },
+              {
+                "objectName": "RentAmountNumber"
+              },
+              {
+                "objectName": "TotalGainedText"
+              }
+            ]
+          },
+          {
             "objectName": "Box"
           },
           {
-            "objectName": "YellowBackground"
-          },
-          {
-            "objectName": "Conveyor"
+            "objectName": "MainBackground"
           },
           {
             "objectName": "InspectButton"
@@ -31125,13 +32119,7 @@
             "objectName": "InspectButton_Text"
           },
           {
-            "objectName": "InspectSpot"
-          },
-          {
             "objectName": "DayText"
-          },
-          {
-            "objectName": "BoxesLeft_Text"
           },
           {
             "objectName": "Cart"
@@ -31146,35 +32134,27 @@
             "objectName": "RightArrow"
           },
           {
-            "folderName": "EndElements",
-            "children": [
-              {
-                "objectName": "EndMenu"
-              },
-              {
-                "objectName": "EndText"
-              },
-              {
-                "objectName": "BoxDeliveredText"
-              },
-              {
-                "objectName": "BoxPayText"
-              },
-              {
-                "objectName": "RentText"
-              },
-              {
-                "objectName": "TotalPayText"
-              }
-            ]
+            "objectName": "ConveyorBelt"
+          },
+          {
+            "objectName": "InspectSpot"
+          },
+          {
+            "objectName": "Floor"
+          },
+          {
+            "objectName": "InspectBox"
+          },
+          {
+            "objectName": "DurabilityPercentage"
           }
         ]
       },
       "events": [
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
           "creationTime": 0,
           "name": "Tutorial Dialogue",
           "source": "",
@@ -31713,10 +32693,11 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
           "creationTime": 0,
+          "folded": true,
           "name": "Controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31753,6 +32734,16 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "ChevronArrowUp",
+                    "\"Inspect\""
+                  ]
                 }
               ],
               "actions": [
@@ -31785,6 +32776,14 @@
                     "BoxChecking_Index",
                     "=",
                     "Box.Variable(boxIndex)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ChevronArrowDown"
                   ]
                 }
               ],
@@ -31860,6 +32859,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32038,6 +33038,7 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32049,6 +33050,21 @@
                         "ButtonFSM",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -32063,19 +33079,8 @@
                           "parameters": [
                             "Box_1",
                             "Animation",
-                            "!=",
-                            "\"Top\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                          },
-                          "parameters": [
-                            "Box_1",
-                            "Animation",
-                            "!=",
-                            "\"Bottom\""
+                            "=",
+                            "\"Front\""
                           ]
                         }
                       ],
@@ -32125,46 +33130,6 @@
                           "parameters": [
                             "ChevronArrowRight"
                           ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                          },
-                          "parameters": [
-                            "Box_1",
-                            "Animation",
-                            "=",
-                            "\"Bottom\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Box_1",
-                            "Animation",
-                            "=",
-                            "\"Front\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Box_2",
-                            "Animation",
-                            "=",
-                            "\"Front\""
-                          ]
                         },
                         {
                           "type": {
@@ -32174,30 +33139,13 @@
                             "ChevronArrowDown",
                             ""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "Montre"
-                          },
-                          "parameters": [
-                            "ChevronArrowLeft",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Montre"
-                          },
-                          "parameters": [
-                            "ChevronArrowRight",
-                            ""
-                          ]
                         }
                       ]
                     }
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32209,85 +33157,25 @@
                         "ButtonFSM",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                          },
-                          "parameters": [
-                            "Box_1",
-                            "Animation",
-                            "!=",
-                            "\"Top\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                          },
-                          "parameters": [
-                            "Box_1",
-                            "Animation",
-                            "!=",
-                            "\"Bottom\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Box_1",
-                            "Animation",
-                            "=",
-                            "\"Bottom\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Box_2",
-                            "Animation",
-                            "=",
-                            "\"Bottom\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "ChevronArrowDown"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "ChevronArrowLeft"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "ChevronArrowRight"
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -32352,12 +33240,21 @@
                             "ChevronArrowRight",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "ChevronArrowDown"
+                          ]
                         }
                       ]
                     }
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32369,6 +33266,21 @@
                         "ButtonFSM",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -32512,7 +33424,7 @@
                             "value": "Visible"
                           },
                           "parameters": [
-                            "ChevronArrowDown"
+                            "ChevronArrowUp"
                           ]
                         }
                       ],
@@ -32546,14 +33458,6 @@
                           "parameters": [
                             "ChevronArrowUp"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "ChevronArrowDown"
-                          ]
                         }
                       ]
                     },
@@ -32577,20 +33481,11 @@
                             "value": "Visible"
                           },
                           "parameters": [
-                            "ChevronArrowDown"
+                            "ChevronArrowUp"
                           ]
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "Montre"
-                          },
-                          "parameters": [
-                            "ChevronArrowDown",
-                            ""
-                          ]
-                        },
                         {
                           "type": {
                             "value": "Montre"
@@ -32605,6 +33500,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32616,6 +33512,21 @@
                         "ButtonFSM",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [],
@@ -32759,7 +33670,7 @@
                             "value": "Visible"
                           },
                           "parameters": [
-                            "ChevronArrowDown"
+                            "ChevronArrowUp"
                           ]
                         }
                       ],
@@ -32784,14 +33695,6 @@
                             "Animation",
                             "=",
                             "\"Right\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "ChevronArrowDown"
                           ]
                         },
                         {
@@ -32824,20 +33727,11 @@
                             "value": "Visible"
                           },
                           "parameters": [
-                            "ChevronArrowDown"
+                            "ChevronArrowUp"
                           ]
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "Montre"
-                          },
-                          "parameters": [
-                            "ChevronArrowDown",
-                            ""
-                          ]
-                        },
                         {
                           "type": {
                             "value": "Montre"
@@ -32862,6 +33756,15 @@
                         "Redo",
                         "ButtonFSM",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "ChevronArrowUp",
+                        "\"Inspect\""
                       ]
                     }
                   ],
@@ -32902,15 +33805,6 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "ChevronArrowDown",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
                         "ChevronArrowLeft",
                         ""
                       ]
@@ -32942,9 +33836,9 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
           "creationTime": 0,
           "name": "Conveyor Belt",
           "source": "",
@@ -32959,7 +33853,7 @@
                   },
                   "parameters": [
                     "Box",
-                    "Conveyor",
+                    "ConveyorBelt",
                     "",
                     "",
                     ""
@@ -32974,7 +33868,7 @@
                   "parameters": [
                     "Box",
                     "ConveyorSpeed",
-                    "0",
+                    "5",
                     "0"
                   ]
                 }
@@ -33013,10 +33907,90 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
           "creationTime": 0,
+          "name": "Box Gravity",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Box",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Box",
+                    "ConveyorBelt",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Box",
+                    "InspectSpot",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Box",
+                    "Floor",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Box",
+                    "0",
+                    "350",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
+          "creationTime": 0,
+          "folded": true,
           "name": "Input Carts",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33737,9 +34711,9 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
           "creationTime": 0,
           "folded": true,
           "name": "Update UI",
@@ -33749,27 +34723,15 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "BoxesLeft_Text",
-                    "Text",
-                    "=",
-                    "\"Boxes Remaining: \" + ToString(GlobalVariable(BoxesRemaining))"
-                  ]
-                }
-              ]
+              "actions": []
             }
           ],
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
           "creationTime": 0,
           "name": "Start",
           "source": "",
@@ -33915,19 +34877,9 @@
                   "parameters": [
                     "",
                     "Box",
-                    "60",
-                    "530",
+                    "-100",
+                    "400",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BoxesRemaining",
-                    "=",
-                    "1"
                   ]
                 },
                 {
@@ -34002,8 +34954,8 @@
                   "parameters": [
                     "",
                     "Box",
-                    "60",
-                    "530",
+                    "-100",
+                    "400",
                     ""
                   ]
                 },
@@ -34047,16 +34999,6 @@
                   "parameters": [
                     "",
                     "\"BoxSpawn\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BoxesRemaining",
-                    "+",
-                    "1"
                   ]
                 }
               ]
@@ -34292,6 +35234,162 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 210,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "LoseScene",
+      "name": "LoseScene",
+      "r": 210,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 210,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3645833333333333,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 210,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "WinScene",
+      "name": "WinScene",
+      "r": 210,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 210,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3645833333333333,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
