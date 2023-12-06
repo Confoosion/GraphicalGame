@@ -1617,6 +1617,15 @@
         "name": "Left13",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Title_screenfinal.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Title_screenfinal",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1844,7 +1853,7 @@
       "folded": true,
       "name": "RobotHelpersBool",
       "type": "boolean",
-      "value": true
+      "value": false
     },
     {
       "folded": true,
@@ -1893,19 +1902,31 @@
       "name": "ShiftDay",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "MONEY_Earned",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "MONEY_Spent",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
     {
-      "b": 96,
+      "b": 45,
       "disableInputWhenNotFocused": true,
       "mangledName": "MainMenu",
       "name": "MainMenu",
-      "r": 236,
+      "r": 202,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 174,
+      "v": 166,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -1933,7 +1954,7 @@
           "width": 400,
           "x": 750,
           "y": 625,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1965,23 +1986,7 @@
           "width": 400,
           "x": 750,
           "y": 850,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 400,
-          "layer": "",
-          "name": "GameTitle",
-          "persistentUuid": "59c9578d-a83d-4a73-a21e-3377efe1d8d9",
-          "width": 800,
-          "x": 570,
-          "y": 40,
-          "zOrder": 4,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1998,6 +2003,22 @@
           "x": 55,
           "y": 944,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1080,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "552cf0cf-1fad-4077-bbd9-3470e5f9aa68",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2776,6 +2797,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Title_screenfinal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Title_screenfinal",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 500,
+                            "y": 0
+                          },
+                          {
+                            "x": 500,
+                            "y": 281
+                          },
+                          {
+                            "x": 0,
+                            "y": 281
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2795,6 +2877,9 @@
           },
           {
             "objectName": "BackButton"
+          },
+          {
+            "objectName": "Background"
           }
         ]
       },
@@ -2949,6 +3034,38 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -15588,6 +15705,7 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
+              "folded": true,
               "name": "Robot Helpers",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -15873,7 +15991,6 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
-              "folded": true,
               "name": "Input Carts",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -18865,6 +18982,16 @@
                     },
                     {
                       "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "MONEY_Earned",
+                        "+",
+                        "TotalGainedPerDay"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                       },
                       "parameters": [
@@ -19088,6 +19215,16 @@
                       },
                       "parameters": [
                         "MONEY",
+                        "+",
+                        "BonusPay"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "MONEY_Earned",
                         "+",
                         "BonusPay"
                       ]
@@ -25427,6 +25564,16 @@
                 },
                 {
                   "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY_Spent",
+                    "+",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -25573,6 +25720,16 @@
                 },
                 {
                   "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY_Spent",
+                    "+",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -25705,6 +25862,16 @@
                 },
                 {
                   "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY_Spent",
+                    "+",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -25833,6 +26000,16 @@
                   "parameters": [
                     "MONEY",
                     "-",
+                    "200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY_Spent",
+                    "+",
                     "200"
                   ]
                 },
@@ -25971,6 +26148,16 @@
                 },
                 {
                   "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY_Spent",
+                    "+",
+                    "300"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -26099,6 +26286,16 @@
                   "parameters": [
                     "MONEY",
                     "-",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY_Spent",
+                    "+",
                     "400"
                   ]
                 },
@@ -26237,6 +26434,16 @@
                 },
                 {
                   "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MONEY_Spent",
+                    "+",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -26333,6 +26540,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Buying Sound Effect.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -26343,14 +26562,12 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "",
-                    "Buying Sound Effect.mp3",
-                    "",
-                    "100",
-                    "1"
+                    "MONEY_Spent",
+                    "+",
+                    "1000"
                   ]
                 },
                 {
@@ -26540,7 +26757,7 @@
                         "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "RobotHelpers",
+                        "RobotHelpersBool",
                         "True"
                       ]
                     }
