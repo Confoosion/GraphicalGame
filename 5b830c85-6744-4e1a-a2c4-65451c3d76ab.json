@@ -3042,6 +3042,12 @@
           "name": "SpecificationRandomizer",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "BonusPay",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -3741,8 +3747,8 @@
           "name": "DebugText",
           "persistentUuid": "c1951112-b6f5-44cf-bbf9-bec1c2751937",
           "width": 0,
-          "x": 1214,
-          "y": 895,
+          "x": 490,
+          "y": 999,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -3774,6 +3780,84 @@
           "x": 1167,
           "y": 262,
           "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "",
+          "name": "WetFloorSign",
+          "persistentUuid": "9e869880-8e9f-4555-8267-684ad5323aa4",
+          "width": 300,
+          "x": 1266,
+          "y": 21,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "",
+          "name": "WetFloorSign",
+          "persistentUuid": "758bc85f-0030-45bb-8431-b109f2a9a643",
+          "width": 300,
+          "x": 1266,
+          "y": 399,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "",
+          "name": "WetFloorSign",
+          "persistentUuid": "dafa4d4e-4304-4268-8c00-8837c300caa3",
+          "width": 300,
+          "x": 1266,
+          "y": 781,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "End Result",
+          "name": "BonusPayText",
+          "persistentUuid": "5400e106-60df-4c52-a664-1a0f826ea360",
+          "width": 0,
+          "x": 637,
+          "y": 378,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "End Result",
+          "name": "BonusPayNumber",
+          "persistentUuid": "6d695d62-2f2f-46ab-838f-1cdbcb1acfe0",
+          "width": 0,
+          "x": 972,
+          "y": 383,
+          "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9192,7 +9276,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "+$60",
+          "string": "+$0",
           "font": "",
           "textAlignment": "left",
           "characterSize": 60,
@@ -10051,6 +10135,109 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "WetFloorSign",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Wet floor sign(Final)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Wet floor sign(Final).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 73,
+                            "y": 17
+                          },
+                          {
+                            "x": 418,
+                            "y": 17
+                          },
+                          {
+                            "x": 418,
+                            "y": 477
+                          },
+                          {
+                            "x": 73,
+                            "y": 477
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "BonusPayText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Bonus Pay:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "BonusPayNumber",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "+$0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 32,
+            "g": 221,
+            "r": 41
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -10141,6 +10328,12 @@
                 "objectName": "DayEarningsNumber"
               },
               {
+                "objectName": "BonusPayText"
+              },
+              {
+                "objectName": "BonusPayNumber"
+              },
+              {
                 "objectName": "RentAmountText"
               },
               {
@@ -10173,6 +10366,9 @@
                 "objectName": "RobotHelper2"
               }
             ]
+          },
+          {
+            "objectName": "WetFloorSign"
           },
           {
             "objectName": "Box"
@@ -10226,9 +10422,9 @@
       },
       "events": [
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
           "creationTime": 0,
           "name": "Start",
           "source": "",
@@ -10301,6 +10497,251 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "name": "Checking for Upgrades",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "FasterConveyorTier",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "ConveyorBelt",
+                        "Animation",
+                        "=",
+                        "\"Conveyor_Belt_Tier2\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "FasterConveyorTier",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "ConveyorBelt",
+                        "Animation",
+                        "=",
+                        "\"Conveyor_Belt_Tier3\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "OvertimeBool",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "CountdownText",
+                        "CountdownTimer",
+                        "=",
+                        "35"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "CountdownText",
+                        "Text",
+                        "=",
+                        "ToString(CountdownText.Variable(CountdownTimer))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "RobotHelpers",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "RobotHelper"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "HelperTV"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "RobotHelper2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "HelperTV2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "RobotHelpers",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "RobotHelper2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "HelperTV2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "WetFloorSignsBool",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "WetFloorSign"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PromotionBool",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "BonusPayText"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "BonusPayNumber"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
               "name": "Randomizing Cart Specifications",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -10323,7 +10764,7 @@
                       "parameters": [
                         "SpecificationRandomizer",
                         "=",
-                        "Random(5)"
+                        "RandomInRange(0,4)"
                       ]
                     },
                     {
@@ -10878,6 +11319,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Spawn Boxes",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -10934,7 +11376,7 @@
                         "Box",
                         "boxIndex",
                         "=",
-                        "Random(8)+1"
+                        "RandomInRange(1,9)"
                       ]
                     }
                   ],
@@ -11905,9 +12347,9 @@
           "actions": [],
           "events": [
             {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
+              "colorB": 224,
+              "colorG": 16,
+              "colorR": 189,
               "creationTime": 0,
               "name": "Controls",
               "source": "",
@@ -12027,15 +12469,6 @@
                     },
                     {
                       "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Box",
-                        "\"boxDurability\""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Cache"
                       },
                       "parameters": [
@@ -12044,6 +12477,31 @@
                     }
                   ],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "GlovesBool",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Box",
+                            "\"boxDurability\""
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -14734,9 +15192,9 @@
               "parameters": []
             },
             {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
+              "colorB": 224,
+              "colorG": 16,
+              "colorR": 189,
               "creationTime": 0,
               "folded": true,
               "name": "Box Gravity",
@@ -14801,10 +15259,11 @@
               "parameters": []
             },
             {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
+              "colorB": 224,
+              "colorG": 16,
+              "colorR": 189,
               "creationTime": 0,
+              "folded": true,
               "name": "Conveyor Belt",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14872,15 +15331,17 @@
               "parameters": []
             },
             {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
+              "colorB": 224,
+              "colorG": 16,
+              "colorR": 189,
               "creationTime": 0,
+              "folded": true,
               "name": "Input Carts",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -15232,7 +15693,7 @@
                                   },
                                   "parameters": [
                                     "Box",
-                                    "Specifications.Barcode",
+                                    "Specifications.BoxID",
                                     "=",
                                     "Cart.Variable(Cart_A.BoxID)"
                                   ]
@@ -17693,10 +18154,11 @@
               "parameters": []
             },
             {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
+              "colorB": 224,
+              "colorG": 16,
+              "colorR": 189,
               "creationTime": 0,
+              "folded": true,
               "name": "Update UI",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -17746,11 +18208,10 @@
           ]
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
           "creationTime": 0,
-          "folded": true,
           "name": "End Result Screen",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18028,6 +18489,53 @@
                             "\"-$\" + ToString(Rent)"
                           ]
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PromotionBool",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "BonusPay",
+                        "=",
+                        "round(MONEY/2)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "MONEY",
+                        "+",
+                        "BonusPay"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "BonusPayNumber",
+                        "Text",
+                        "=",
+                        "\"+$\" + ToString(BonusPay)"
                       ]
                     }
                   ]
