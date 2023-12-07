@@ -384,34 +384,6 @@
         "userAdded": true
       },
       {
-        "file": "assets/538147__fupicat__correct-bell.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "538147__fupicat__correct-bell.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/5b830c85-6744-4e1a-a2c4-65451c3d76ab/resources/59760a0a350b94821ce29060e6084b9eba68394e59f132756a96f19e235c8fd4-538147__fupicat__correct-bell.wav",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/483598__raclure__wrong.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "483598__raclure__wrong.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/5b830c85-6744-4e1a-a2c4-65451c3d76ab/resources/395378f516bb99e0aaae5a415b982012f0a78ba6d9df48cbf6ff1cf7fc57dc7c-483598__raclure__wrong.mp3",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
         "file": "assets/364740__newagesoup__open-cardboard-box-compartment.wav",
         "kind": "audio",
         "metadata": "",
@@ -472,26 +444,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
           "name": "Green Button_Pressed.png"
         }
-      },
-      {
-        "file": "assets/Error Sound.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Error Sound.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/Buying Sound Effect.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Buying Sound Effect.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -1729,6 +1681,112 @@
         "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Late_Night_Radio.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Late_Night_Radio.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gas.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/04556cffa8fa75a9515382f3ad3d092361a7a339c612344926d372f906e3e7ed_Gas.png",
+          "name": "Gas.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Point.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/e75f02ffb5796a124fe04ea8594f63e031a42cfe6d46e697d8f05bdbb0673b7e_Point.png",
+          "name": "Point.png"
+        }
+      },
+      {
+        "file": "assets/ding.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ding.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/eheh.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "eh_eh.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Congratulations_You_won.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Congratulations_You_won.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/yay1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "yay1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/yay2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "yay2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/yay3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "yay3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/yay4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "yay4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2170,8 +2228,8 @@
           "name": "Music",
           "persistentUuid": "c3b5e090-4b2f-400d-818d-191aca3c8ee8",
           "width": 0,
-          "x": 203,
-          "y": 742,
+          "x": 208,
+          "y": 626,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2247,7 +2305,7 @@
           "persistentUuid": "19311d36-87f0-4b73-9d9c-032029e157db",
           "width": 0,
           "x": 798,
-          "y": 599,
+          "y": 520,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2294,6 +2352,21 @@
           "x": 1435,
           "y": 231,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Music2",
+          "persistentUuid": "e6840ebb-89b7-43ae-a374-030122c0231a",
+          "width": 0,
+          "x": 208,
+          "y": 814,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3201,27 +3274,6 @@
           "assetStoreId": "",
           "bold": true,
           "italic": false,
-          "name": "created_by",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Created by: ",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 200,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
           "name": "Music_by",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -3283,27 +3335,6 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "NewText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "assetStoreId": "",
           "bold": true,
           "italic": false,
           "name": "sounds",
@@ -3322,11 +3353,64 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Music2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "\"Late Night Radio\" Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 4.0 License\nhttp://creativecommons.org/licenses/by/4.0/",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Credits",
+            "children": [
+              {
+                "objectName": "Coders"
+              },
+              {
+                "objectName": "Artists"
+              },
+              {
+                "objectName": "sounds"
+              },
+              {
+                "objectName": "Music_by"
+              },
+              {
+                "objectName": "Music"
+              },
+              {
+                "objectName": "Music2"
+              },
+              {
+                "objectName": "Calvin"
+              },
+              {
+                "objectName": "Jake"
+              },
+              {
+                "objectName": "BackButton"
+              }
+            ]
+          },
           {
             "objectName": "StartButton"
           },
@@ -3340,37 +3424,7 @@
             "objectName": "GameTitle"
           },
           {
-            "objectName": "BackButton"
-          },
-          {
             "objectName": "Background"
-          },
-          {
-            "objectName": "Jake"
-          },
-          {
-            "objectName": "Calvin"
-          },
-          {
-            "objectName": "Music"
-          },
-          {
-            "objectName": "created_by"
-          },
-          {
-            "objectName": "Music_by"
-          },
-          {
-            "objectName": "Coders"
-          },
-          {
-            "objectName": "Artists"
-          },
-          {
-            "objectName": "NewText"
-          },
-          {
-            "objectName": "sounds"
           }
         ]
       },
@@ -4723,6 +4777,96 @@
           "x": 135,
           "y": 102,
           "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CorrectGasA",
+          "persistentUuid": "7f11818f-b78e-4543-9633-3cad62fbcfa4",
+          "width": 0,
+          "x": 1704,
+          "y": 176,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CorrectGasB",
+          "persistentUuid": "cf366f99-bd1a-4b6b-90e3-5a9a4e54470b",
+          "width": 0,
+          "x": 1704,
+          "y": 563,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CorrectGasC",
+          "persistentUuid": "cf4ec216-b3e4-4f3e-9485-5ba8b55ff2d7",
+          "width": 0,
+          "x": 1704,
+          "y": 955,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "WrongGasA",
+          "persistentUuid": "36127f3d-4900-4d17-b80f-d5a07f05b699",
+          "width": 0,
+          "x": 1704,
+          "y": 176,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "WrongGasB",
+          "persistentUuid": "98ff1cbe-1d8d-4b6e-aae6-c7474a0da285",
+          "width": 0,
+          "x": 1704,
+          "y": 563,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "WrongGasC",
+          "persistentUuid": "82476eb4-a06d-4be6-aa80-1d978fa87e9d",
+          "width": 0,
+          "x": 1704,
+          "y": 955,
+          "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6526,43 +6670,7 @@
               ]
             }
           ],
-          "effects": [
-            {
-              "effectType": "Outline",
-              "name": "Correct",
-              "doubleParameters": {
-                "padding": 0,
-                "thickness": 5
-              },
-              "stringParameters": {
-                "color": "61;255;66"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Glitch",
-              "name": "Incorrect",
-              "doubleParameters": {
-                "animationFrequency": 60,
-                "blueX": 10,
-                "blueY": -4,
-                "direction": 0,
-                "fillMode": 0,
-                "greenX": 10,
-                "greenY": -4,
-                "minSize": 8,
-                "offset": 100,
-                "redX": 2,
-                "redY": 2,
-                "sampleSize": 512,
-                "slices": 5
-              },
-              "stringParameters": {},
-              "booleanParameters": {
-                "average": false
-              }
-            }
-          ],
+          "effects": [],
           "behaviors": [
             {
               "name": "ButtonFSM",
@@ -11014,6 +11122,276 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "additive": true,
+          "assetStoreId": "8b9d676aee2e7b4e359522aecea263890ba30f957c5665d63d459675b12980f2",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 0,
+          "emitterForceMin": 0,
+          "flow": 100,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 1000,
+          "name": "CorrectGasA",
+          "particleAlpha1": 50,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 97,
+          "particleBlue2": 74,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 255,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 2,
+          "particleLifeTimeMin": 1.7999999523162842,
+          "particleRed1": 107,
+          "particleRed2": 216,
+          "particleSize1": 100,
+          "particleSize2": 0,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 1,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "Gas.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 150,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "additive": true,
+          "assetStoreId": "8b9d676aee2e7b4e359522aecea263890ba30f957c5665d63d459675b12980f2",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 0,
+          "emitterForceMin": 0,
+          "flow": 100,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 1000,
+          "name": "CorrectGasB",
+          "particleAlpha1": 50,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 97,
+          "particleBlue2": 74,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 255,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 2,
+          "particleLifeTimeMin": 1.7999999523162842,
+          "particleRed1": 107,
+          "particleRed2": 216,
+          "particleSize1": 100,
+          "particleSize2": 0,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 1,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "Gas.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 150,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "additive": true,
+          "assetStoreId": "8b9d676aee2e7b4e359522aecea263890ba30f957c5665d63d459675b12980f2",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 0,
+          "emitterForceMin": 0,
+          "flow": 100,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 1000,
+          "name": "CorrectGasC",
+          "particleAlpha1": 50,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 97,
+          "particleBlue2": 74,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 255,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 2,
+          "particleLifeTimeMin": 1.7999999523162842,
+          "particleRed1": 107,
+          "particleRed2": 216,
+          "particleSize1": 100,
+          "particleSize2": 0,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 1,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "Gas.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 150,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "additive": true,
+          "assetStoreId": "8b9d676aee2e7b4e359522aecea263890ba30f957c5665d63d459675b12980f2",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 0,
+          "emitterForceMin": 0,
+          "flow": 100,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 1000,
+          "name": "WrongGasA",
+          "particleAlpha1": 50,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 37,
+          "particleBlue2": 74,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 9,
+          "particleGreen2": 156,
+          "particleLifeTimeMax": 2,
+          "particleLifeTimeMin": 1.7999999523162842,
+          "particleRed1": 245,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 0,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 1,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "Gas.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 150,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "additive": true,
+          "assetStoreId": "8b9d676aee2e7b4e359522aecea263890ba30f957c5665d63d459675b12980f2",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 0,
+          "emitterForceMin": 0,
+          "flow": 100,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 1000,
+          "name": "WrongGasB",
+          "particleAlpha1": 50,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 37,
+          "particleBlue2": 74,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 9,
+          "particleGreen2": 156,
+          "particleLifeTimeMax": 2,
+          "particleLifeTimeMin": 1.7999999523162842,
+          "particleRed1": 245,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 0,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 1,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "Gas.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 150,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "additive": true,
+          "assetStoreId": "8b9d676aee2e7b4e359522aecea263890ba30f957c5665d63d459675b12980f2",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 0,
+          "emitterForceMin": 0,
+          "flow": 100,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 1000,
+          "name": "WrongGasC",
+          "particleAlpha1": 50,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 37,
+          "particleBlue2": 74,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 9,
+          "particleGreen2": 156,
+          "particleLifeTimeMax": 2,
+          "particleLifeTimeMin": 1.7999999523162842,
+          "particleRed1": 245,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 0,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 1,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "Gas.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 150,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -11176,6 +11554,29 @@
             "objectName": "Cart"
           },
           {
+            "folderName": "Particles",
+            "children": [
+              {
+                "objectName": "CorrectGasA"
+              },
+              {
+                "objectName": "CorrectGasB"
+              },
+              {
+                "objectName": "CorrectGasC"
+              },
+              {
+                "objectName": "WrongGasA"
+              },
+              {
+                "objectName": "WrongGasB"
+              },
+              {
+                "objectName": "WrongGasC"
+              }
+            ]
+          },
+          {
             "objectName": "Paper"
           },
           {
@@ -11221,24 +11622,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                    "value": "PlayMusic"
                   },
                   "parameters": [
-                    "Cart",
-                    "Effect",
-                    "\"Correct\"",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
-                  },
-                  "parameters": [
-                    "Cart",
-                    "Effect",
-                    "\"Incorrect\"",
-                    ""
+                    "",
+                    "Rollin at 5.mp3",
+                    "yes",
+                    "100",
+                    "1"
                   ]
                 },
                 {
@@ -11272,8 +11663,64 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "CorrectGasA"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "CorrectGasB"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "CorrectGasC"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "WrongGasA"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "WrongGasB"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "WrongGasC"
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -13400,6 +13847,7 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
+              "folded": true,
               "name": "Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14419,6 +14867,121 @@
                       "parameters": [
                         "Box",
                         "\"boxDurability\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Box",
+                            "Durability",
+                            "<=",
+                            "50"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Box",
+                            "Animation",
+                            "=",
+                            "\"Dirty\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Box",
+                            "Durability",
+                            "<=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Box",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "HideLayer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Inspect\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "ChevronArrowLeft",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "ChevronArrowRight",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "ChevronArrowUp",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveObjectTimer"
+                          },
+                          "parameters": [
+                            "Box",
+                            "\"boxDurability\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -16232,6 +16795,7 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
+              "folded": true,
               "name": "Box Gravity",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -16321,6 +16885,7 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
+              "folded": true,
               "name": "Conveyor Belt",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -16693,7 +17258,6 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -16797,7 +17361,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -16825,13 +17389,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasA",
+                                    ""
                                   ]
                                 },
                                 {
@@ -16844,13 +17406,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasA"
                                   ]
                                 }
                               ]
@@ -16878,7 +17437,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -16927,6 +17486,15 @@
                                 },
                                 {
                                   "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "WrongGasA",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
                                     "value": "Wait"
                                   },
                                   "parameters": [
@@ -16935,13 +17503,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasA"
                                   ]
                                 }
                               ]
@@ -16987,7 +17552,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17015,13 +17580,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasA",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17034,13 +17597,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasA"
                                   ]
                                 }
                               ]
@@ -17068,7 +17628,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17106,13 +17666,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasA",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17125,13 +17683,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasA"
                                   ]
                                 }
                               ]
@@ -17177,7 +17732,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17205,13 +17760,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasA",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17224,13 +17777,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasA"
                                   ]
                                 }
                               ]
@@ -17258,7 +17808,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17296,13 +17846,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasA",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17315,13 +17863,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasA"
                                   ]
                                 }
                               ]
@@ -17367,7 +17912,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17395,13 +17940,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasA",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17414,13 +17957,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasA"
                                   ]
                                 }
                               ]
@@ -17448,7 +17988,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17486,13 +18026,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasA",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17505,13 +18043,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasA"
                                   ]
                                 }
                               ]
@@ -17557,7 +18092,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17585,13 +18120,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasA",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17604,13 +18137,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasA"
                                   ]
                                 }
                               ]
@@ -17638,7 +18168,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17676,13 +18206,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasA",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17695,13 +18223,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasA"
                                   ]
                                 }
                               ]
@@ -17767,7 +18292,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17795,13 +18320,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17814,13 +18337,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasB"
                                   ]
                                 }
                               ]
@@ -17848,7 +18368,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17886,13 +18406,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -17905,13 +18423,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasB"
                                   ]
                                 }
                               ]
@@ -17957,7 +18472,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -17985,13 +18500,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18004,13 +18517,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasB"
                                   ]
                                 }
                               ]
@@ -18038,7 +18548,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18076,13 +18586,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18095,13 +18603,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasB"
                                   ]
                                 }
                               ]
@@ -18147,7 +18652,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18175,13 +18680,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18194,13 +18697,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasB"
                                   ]
                                 }
                               ]
@@ -18228,7 +18728,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18266,13 +18766,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18285,13 +18783,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasB"
                                   ]
                                 }
                               ]
@@ -18337,7 +18832,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18365,13 +18860,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18384,13 +18877,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasB"
                                   ]
                                 }
                               ]
@@ -18418,7 +18908,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18456,13 +18946,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18475,13 +18963,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasB"
                                   ]
                                 }
                               ]
@@ -18527,7 +19012,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18555,13 +19040,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18574,13 +19057,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasB"
                                   ]
                                 }
                               ]
@@ -18608,7 +19088,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18646,13 +19126,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasB",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18665,13 +19143,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasB"
                                   ]
                                 }
                               ]
@@ -18737,7 +19212,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18765,13 +19240,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18784,13 +19257,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasC"
                                   ]
                                 }
                               ]
@@ -18818,7 +19288,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18856,13 +19326,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18875,13 +19343,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasC"
                                   ]
                                 }
                               ]
@@ -18927,7 +19392,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -18955,13 +19420,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -18974,13 +19437,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasC"
                                   ]
                                 }
                               ]
@@ -19008,7 +19468,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -19046,13 +19506,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -19065,13 +19523,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasC"
                                   ]
                                 }
                               ]
@@ -19117,7 +19572,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -19145,13 +19600,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -19164,13 +19617,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasC"
                                   ]
                                 }
                               ]
@@ -19198,7 +19648,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -19236,13 +19686,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -19255,13 +19703,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasC"
                                   ]
                                 }
                               ]
@@ -19307,7 +19752,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -19335,13 +19780,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -19354,13 +19797,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasC"
                                   ]
                                 }
                               ]
@@ -19388,7 +19828,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -19426,13 +19866,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -19445,13 +19883,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasC"
                                   ]
                                 }
                               ]
@@ -19497,7 +19932,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "538147__fupicat__correct-bell.wav",
+                                    "ding.mp3",
                                     "",
                                     "70",
                                     ""
@@ -19525,13 +19960,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    "yes"
+                                    "CorrectGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -19544,13 +19977,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Correct\"",
-                                    ""
+                                    "CorrectGasC"
                                   ]
                                 }
                               ]
@@ -19578,7 +20008,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "483598__raclure__wrong.mp3",
+                                    "eh_eh.mp3",
                                     "",
                                     "70",
                                     ""
@@ -19616,13 +20046,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Montre"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    "yes"
+                                    "WrongGasC",
+                                    ""
                                   ]
                                 },
                                 {
@@ -19635,13 +20063,10 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                    "value": "Cache"
                                   },
                                   "parameters": [
-                                    "Cart",
-                                    "Effect",
-                                    "\"Incorrect\"",
-                                    ""
+                                    "WrongGasC"
                                   ]
                                 }
                               ]
@@ -26283,6 +26708,43 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Music",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Late_Night_Radio.mp3",
+                    "yes",
+                    "100",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Buy Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26338,7 +26800,7 @@
                   "parameters": [
                     "",
                     "Borke alert.mp3",
-                    "",
+                    "no",
                     "100",
                     "1"
                   ]
@@ -37239,6 +37701,87 @@
               "parameters": [
                 "",
                 "\"MainMenu\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Congratulations_You_won.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "yay1.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "yay2.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "yay3.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "yay4.mp3",
+                "",
+                "100",
                 ""
               ]
             }
