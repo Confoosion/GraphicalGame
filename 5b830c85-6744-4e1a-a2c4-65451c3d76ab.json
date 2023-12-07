@@ -11621,6 +11621,7 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
+          "folded": true,
           "name": "Start",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11746,7 +11747,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Checking for Upgrades",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -11997,6 +11997,7 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -13716,7 +13717,6 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -13866,7 +13866,6 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
-              "folded": true,
               "name": "Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -15151,6 +15150,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Box Rotations",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -16992,6 +16992,7 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -19195,7 +19196,6 @@
                       "actions": [],
                       "events": [
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -20160,11 +20160,13 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
+          "folded": true,
           "name": "End Result Screen",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -26729,6 +26731,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Music",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34626,7 +34629,6 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
-          "folded": true,
           "name": "Controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34788,7 +34790,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35074,7 +35075,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -35183,7 +35183,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -35429,7 +35428,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -35769,6 +35767,7 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
+          "folded": true,
           "name": "Conveyor Belt",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35840,6 +35839,7 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
+          "folded": true,
           "name": "Box Gravity",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36604,24 +36604,6 @@
                   ]
                 }
               ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 224,
-          "colorG": 16,
-          "colorR": 189,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Update UI",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
